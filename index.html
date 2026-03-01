@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <form action="">
-    <h1>WELCOME</h1>
-    <p>Name <input type="text" name="name" id="name" required></p>
-    <fieldset >
-        <legend>Gender</legend>
-        
-        <p>Male   <input  type="radio" name="gender" id="male" required>
-           Female  <input type="radio" name="gender" id="female" required>
-            </p>
-    </fieldset>
-    
-    <p>Email <input type="email" name="email" id="email" required></p>
-    <p>Date of Birth <input type="date" name="date" id="date"></p>
-    <p>Address <textarea  cols="30" rows="3" name="Address" id="Address" required></textarea></p>
-    <p>Postal Code <input type="number" name="pincode" id="pincode"></p>
-    <h2>Payment information</h2>
-    <p >Card type :
-        <select name="Card_type" id="Card_type" required>
-        <option value="">--select a Card type</option>
-        <option value="Master card">Master card</option>
-        <option value="Paypal">Paypal</option>
-        <option value="Visa">Visa</option>
-        </select>
-    </p>
-    <p>Card number <input type="number" name="number" id="number" required></p>
-    <p>
-        Expiration date <input type="date" name="Expiration_date
-        " id="Expiration_date" required>
-    </p>
-    <p>
-        CVV <input type="password" name="password" id="password">
-    </p>
-    <input type="submit" value="Pay Now">
 
-    
+<body>
+    <header>
+        <h1>
+            WELCOME TO DERRY!
+        </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login in</a>
+            <a href="#">Sign up</a>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+        </nav>
+    </header>
+    <form action="">
+        <p>Name <input type="text" name="name" id="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+
+            <p>Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+
+        <p>Email <input type="email" name="email" id="email" required></p>
+        <p>Date of Birth <input type="date" name="date" id="date"></p>
+        <p>Address <textarea cols="30" rows="3" name="Address" id="Address" required></textarea></p>
+        <p>Postal Code <input type="number" name="pincode" id="pincode"></p>
+        <h2>Payment information</h2>
+        <p>Card type :
+            <select name="Card_type" id="Card_type" required>
+                <option value="">--select a Card type</option>
+                <option value="Master card">Master card</option>
+                <option value="Paypal">Paypal</option>
+                <option value="Visa">Visa</option>
+            </select>
+        </p>
+        <p>Card number <input type="number" name="number" id="number" required></p>
+        <p>
+            Expiration date <input type="date" name="Expiration_date
+        " id="Expiration_date" required>
+        </p>
+        <p>
+            CVV <input type="password" name="password" id="password">
+        </p>
+        <input type="submit" value="Pay Now">
+
+
     </form>
 </body>
+
 </html>
