@@ -18,15 +18,20 @@
     </p>
     </header>
     <section>
-      Name  <input type="text" name="Name" id="Name" >
+      Name  <input type="text" name="Name" id="Name" required >
       <br>
       <br>
-      Father Name  <input type="text" name="Father Name" id="Father Name" >
+      Father Name  <input type="text" name="Father Name" id="Father Name" required>
       <br>
       <br>
-      Email  <input type="text" name="Name" id="Name" >
+      Email  <input type="text" name="Name" id="Name" required >
      <p>
-        <input type="radio" name="Gender" id="Gender">
+        <fieldset >
+
+        <legend>Gender</legend >
+        <input type="radio" name="Gender" id="male" required>Male
+        <input type="radio" name="Gender" id="female" required>Female
+        </fieldset>
      </p>
       
     </section>
