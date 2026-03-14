@@ -10,28 +10,28 @@
 
 <body>
     <header>
-        <h1>
+        <h1 class="main_heading">
             Payment Portal
         </h1>
         <hr>
     </header>
     <form action="" class="container">
         <h2>User information</h2>
-        
+
         <p>Name <input type="text" placeholder="Name" name="name" id="name" required></p>
         <fieldset>
             <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" required>
+            Male <input type="radio" name="gender" id="female" required>Female
 
-            <p> <input type="radio" name="gender" id="male" required>
-                Male <input type="radio" name="gender" id="female" required>Female
-            </p>
         </fieldset>
 
         <p>Email <input type="email" placeholder="xyz@gmail.com" name="email" id="email" required></p>
         <p>Date of Birth <input type="date" name="date" id="date"></p>
         <p>Address
             <br>
-        <textarea cols="30" placeholder="Enter Address" rows="3" name="Address" id="Address" required></textarea></p>
+            <textarea cols="30" placeholder="Enter Address" rows="3" name="Address" id="Address" required></textarea>
+        </p>
         <p>Postal Code <input type="number" placeholder="12345" name="pincode" id="pincode"></p>
         <h2>Payment information</h2>
         <p>Card type :
@@ -42,7 +42,7 @@
                 <option value="Visa">Visa</option>
             </select>
         </p>
-      
+
         <p>Card number <input type="number" placeholder="1111-2222-3333-4444" name="number" id="number" required></p>
         <p>
             Expiration date <input type="date" name="Expiration_date
@@ -52,10 +52,10 @@
             CVV <input type="password" placeholder="123" name="password" id="password">
         </p>
         <input type="submit" value="Pay Now">
-<p>
-    <input type="reset" value="Reset">
-</p>
-  
+        <p>
+            <input type="reset" value="Reset">
+        </p>
+
     </form>
 </body>
 
