@@ -20,5 +20,13 @@ nav a:visited{
 table, tr, th, td{
     border: 2px solid purple;
     border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
     
+}
+th{
+    background-color: aquamarine;
+}
+td{
+    background-color: coral;
 }
