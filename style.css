@@ -1,17 +1,19 @@
-h1{
+nav a{
+    text-decoration: none;
     color: white;
-    background-color: red;
-   font-family: 'Franklin Gothic Medium', 
-   'Arial Narrow', Arial, sans-serif;
-   text-align: center; 
-   width: 100%;
-   
-   
+    text-align: center;
+    padding: 20px;
+    float: left;
+    
 }
-
-#image{
-    float: right;
+nav{
+    overflow: hidden;
+    background-color: black;
+    
 }
-p{
-    color: chocolate;
+nav a:hover{
+    color: turquoise;
+}
+nav a:visited{
+    color: tomato;
 }
