@@ -17,3 +17,8 @@ nav a:hover{
 nav a:visited{
     color: tomato;
 }
+table, tr, th, td{
+    border: 2px solid purple;
+    border-collapse: collapse;
+    
+}
