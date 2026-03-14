@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
@@ -13,16 +13,10 @@
         <h1>
             Payment Portal
         </h1>
-        
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Login in</a>
-            <a href="#">Sign up</a>
-            <a href="#">Contact</a>
-            <a href="#">About Us</a>
-        </nav>
+        <hr>
     </header>
-    <form action="">
+    <form action="" class="container">
+        <h2>User information</h2>
         
         <p>Name <input type="text" placeholder="Name" name="name" id="name" required></p>
         <fieldset>
@@ -35,7 +29,9 @@
 
         <p>Email <input type="email" placeholder="xyz@gmail.com" name="email" id="email" required></p>
         <p>Date of Birth <input type="date" name="date" id="date"></p>
-        <p>Address <textarea cols="30" placeholder="Enter Address" rows="3" name="Address" id="Address" required></textarea></p>
+        <p>Address
+            <br>
+        <textarea cols="30" placeholder="Enter Address" rows="3" name="Address" id="Address" required></textarea></p>
         <p>Postal Code <input type="number" placeholder="12345" name="pincode" id="pincode"></p>
         <h2>Payment information</h2>
         <p>Card type :
@@ -57,7 +53,7 @@
         </p>
         <input type="submit" value="Pay Now">
 <p>
-    <input type="reset" value="reset">
+    <input type="reset" value="Reset">
 </p>
   
     </form>
