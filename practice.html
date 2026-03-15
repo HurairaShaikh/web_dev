@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        #heading {
+            color: rgb(17, 198, 17);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 10px;
+            font: 14px Georgia, serif;
+            background: #ccc;
+        }
+        #second{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        #name1,#name2,#name3,#name4{
+            border: 1px solid black;
+            padding: 15px;
+            width: 25%;
+            /* height: 100%; */
+            background-color: #fff;
+            text-align: center;
+        }
+        @media all and (min-width:1001px){
+#name1,#name2,#name3,#name4{
+    width: 24%;
+    
+
+}
+        }
+        @media all and (max-width:1000px) and (min-width:700px){
+#name1,#name2,#name3,#name4{
+   width: 48%;
+    
+
+}
+        }
+        @media all and (max-width:699px) and (min-width:520px){
+#name1,#name2,#name3,#name4{
+  width: 100%;
+    
+
+}
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="first">
+        <h2 id="heading">
+            Media Query to column increase or decrease the screen size to diplay changes
+        </h2>
+
+        <div id="second">
+            <p id="name1">
+                Name 1
+                <br>
+                Huraira
+            </p>
+            <p id="name2">
+                Name 2
+                <br>
+                Huraira
+            </p>
+            <p id="name3">
+                Name 3
+                <br>
+                Huraira
+            </p>
+            <p id="name4">
+                Name 4
+                <br>
+                Huraira
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
