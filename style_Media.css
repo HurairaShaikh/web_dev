@@ -3,7 +3,8 @@
     padding: 0px;
 }
 body{
-    
+    font: 14px Georgia,serif;
+    background-color: #ccc;
 }
 div #nav{
     list-style: none;
