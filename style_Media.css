@@ -74,7 +74,7 @@ div #nav{
     #side ul li a{
    
     padding-left: 21px;
-    background-image: url("./email.png") ;
+    background-image: url(./email.png) ;
     background-position: left center;
     background-size: 20px 20px;
     background-repeat: no-repeat;
