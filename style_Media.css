@@ -2,11 +2,67 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     font: 14px Georgia,serif;
-    background-color: #ccc;
+    background: #ccc;
 }
+
+article,
+aside,
+footer,
+header,
+figure,
+hgroup,
+menu,
+nav,section{
+ display: block;   
+}
+
+h2{
+    font: 24px georgia;
+    margin: 0px 0px 10px 0px;
+}
+h3{
+  margin: 0px 0px 8px 0px;   
+}
+p{
+     margin: 0px 0px 20px 0px;
+}
+
+#fluid_wrap{
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background: #ccc;
+    overflow: hidden;
+}
+
 div #nav{
     list-style: none;
     
+}
+#side{
+    width: 35%;
+    float: left;
+}
+#side ul li a{
+    color: #900;
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
+}
+@media all and (min-width: 1001px) {
+    #side ul li a::after{
+     content: "(" attr(data-email)")";   
+     font-size: 11px;
+     font-style: italic;
+     color: #666;
+    }
+    
+}
+
+#main_content{
+    width: 65%;
+    float: right;
 }
