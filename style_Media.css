@@ -34,7 +34,7 @@ p{
     width: 70%;
     margin: 60px auto;
     padding: 20px;
-    background: #ccc;
+    background: #fff;
     overflow: hidden;
 }
 
@@ -54,13 +54,35 @@ div #nav{
 }
 @media all and (min-width: 1001px) {
     #side ul li a::after{
-     content: "(" attr(data-email)")";   
+     content: " ("attr(data-email)")";   
      font-size: 11px;
      font-style: italic;
      color: #666;
     }
     
 }
+@media all and (max-width: 1000px) and (min-width:700px) {
+    #side ul li a::before{
+     content: "Email: ";   
+     font-size: 11px;
+     font-style: italic;
+     color: #666;
+    }
+    
+}
+@media all and (max-width: 699px) and (min-width:520px),(min-width:1151px) {
+    #side ul li a{
+   
+    padding-left: 21px;
+    background-image: url("./email.png") ;
+    background-position: left center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+
+    }
+    
+}
+
 
 #main_content{
     width: 65%;
