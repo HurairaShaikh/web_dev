@@ -10,10 +10,11 @@
             text-align: center;
         }
 
+        /* 
         body {
             font-size: 19px;
 
-        }
+        } */
 
         .box-item {
             margin: 0px auto;
@@ -23,9 +24,21 @@
             width: 33%;
             border: 1px solid white;
             display: flex;
-            flex-wrap: wrap;
+
 
         }
+
+        .row {
+
+            margin-top: 20px;
+            background-color: wheat;
+            color: rgb(207, 112, 17);
+            height: 30px;
+            width: 33%;
+            border: 1px solid rgb(207, 112, 17);
+
+        }
+
         .box {
             display: flex;
             flex-wrap: wrap;
@@ -38,24 +51,15 @@
     <h1>Flex Box Property</h1>
 
     <div class="box">
-        <div class="box-item" id="b1">
+        <div class="box-item">
             1
-            <div class="row" id="i1">
-                1
-            </div>
-            <div class="row" id="i2">
-                2
-            </div>
-            <div class="row" id="i3">
-                3
-            </div>
+            <div class="row">1</div>
+            <div class="row">2</div>
+            <div class="row">3</div>
         </div>
-        <div class="box-item" id="b2">
-            2
-        </div>
-        <div class="box-item" id="b3">
-            3
-        </div>
+        
+        <div class="box-item">2 </div>
+        <div class="box-item"> 3</div>
 
 
     </div>
