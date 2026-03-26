@@ -9,43 +9,54 @@
         h1 {
             text-align: center;
         }
-
-        /* 
-        body {
-            font-size: 19px;
-
-        } */
-
         .box-item {
+            padding: 2px;
             margin: 0px auto;
             background-color: rgb(207, 112, 17);
             color: white;
-            height: 250px;
+            height: 193px;
             width: 33%;
             border: 1px solid white;
-            display: flex;
-
-
+            border-radius: 5px;
         }
 
         .row {
+            display: flex;
             margin-top: 20px;
+        }
+        .row1 {
+            display: flex;
            
-            height: 30px;
-            width: 33%;
-
         }
         .small{
- 
+            padding: 2px;
+           margin: 1px;
+            flex: 1;
+            height: 30px;
+             width: 50px;
             background-color: wheat;
             color: rgb(207, 112, 17);
            
             border: 1px solid rgb(207, 112, 17);
+            border-radius: 5px;
+        }
+        .small1{
+            padding: 2px;
+           margin: 1px;
+            flex: 1;
+            height: 30px;
+             width: 50px;
+            background-color: rgb(207, 112, 17);
+            color: white;
+           
+            border: 1px solid rgb(207, 112, 17);
+            border-radius: 5px;
         }
 
         .box {
+
             display: flex;
-            flex-wrap: wrap;
+          /* flex-direction: column; */
 
         }
     </style>
@@ -79,8 +90,22 @@
         
         <div class="box-item">2 </div>
         <div class="box-item"> 3</div>
-
-
+        
+        
+    </div>
+    <div class="row1">
+         <div class="small1">1</div>
+            <div class="small1">2</div>
+            <div class="small1">3</div>
+            <div class="small1">4</div>
+          
+    </div>
+    <div class="row1">
+         <div class="small1" >1</div>
+            <div class="small1">2</div>
+            <div class="small1">3</div>
+            <div class="small1">4</div>
+            <div class="small1">5</div>
     </div>
 </body>
 
