@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Property</title>
+    <style>
+        .main{
+            background-color: rgb(242, 242, 242);
+          margin: 10px;
+        }
+        .in-main1,.in-main2{
+            margin-left: 100px;
+          padding: 20px; 
+            display: flex;
+            flex-direction: row;
+            height: 450px;
+            width: 80%;
+           
+        }
+      
+        .img1,.img2{
+            flex: 1;
+      margin: 10px;
+      padding: 15px; 
+      background: #fff; 
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+        }
+         .img1 img, .img2 img {
+      width: 200px;  
+      height: 120px;  
+      object-fit: cover; 
+      margin-bottom: 10px;
+    }
+    input[type="button"]{
+        width: 70%;
+        padding: 10px;
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+         margin-top: 20px; 
+    }
+    .in-main1 .img1:nth-child(2),
+    .in-main2 .img2:nth-child(2) {
+      margin-top: -40px;  
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="in-main1">
+
+        <div class="img1"><img src="https://static.vecteezy.com/system/resources/previews/040/692/510/non_2x/ai-generated-tranquil-meadow-green-trees-sunset-sky-nature-serene-beauty-generated-by-ai-free-photo.jpg" alt="tree"><h2>Seamlessly visualize quality </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quia ab autem sunt quo odio exercitationem eveniet repellat ipsa enim.
+        </p>
+    <input type="button" value="Read More">
+</div>
+
+        <div class="img1"><img src="https://th.bing.com/th/id/OIP.HdqRT4uN9tFrkUoviSscaQHaE8?w=336&h=183&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt=" tree"><h2>Complete Synergize</h2><p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ab corrupti provident debitis illo, suscipit eveniet perspiciatis! Consectetur, recusandae fugiat voluptates quasi dicta iusto. Temporibus facilis optio voluptate adipisci maxime.
+        </p>
+      <input type="button" value="Read More">
+    </div>
+        
+        
+        <div class="img1"><img src="https://th.bing.com/th/id/OIP.0hlsWYbMsgx3kST73HFt0QHaE7?w=282&h=188&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"><h2>Dynamically Procastinate </h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis neque quidem id vitae, esse dicta, eum inventore incidunt laboriosam cumque distinctio? Facere?</p>
+          <input type="button" value="Read More">
+        </div>
+        </div>
+
+        <div class="in-main2">
+        <div class="img2"><img src="https://static.vecteezy.com/system/resources/previews/040/692/510/non_2x/ai-generated-tranquil-meadow-green-trees-sunset-sky-nature-serene-beauty-generated-by-ai-free-photo.jpg"  alt="tree"><h2>Best In Class</h2><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quisquam consequuntur sed nihil sint eos earum ex sunt. Similique eos atque non voluptatum adipisci repellat. Tempore ipsum quis cumque debitis.</p>
+          <input type="button" value="Read More">
+        </div>
+        
+        <div class="img2"><img src="https://th.bing.com/th/id/OIP.HdqRT4uN9tFrkUoviSscaQHaE8?w=336&h=183&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"alt=" tree"><h2>Dynamically innovate supply chains</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero, recusandae aspernatur hic pariatur exercitationem earum quam tempora aliquam vero totam sequi provident. Non minus dolorum exercitationem eveniet consectetur ratione est cumque?</p>
+          <input type="button" value="Read More">
+        </div>
+        
+        <div class="img2" ><img src="https://th.bing.com/th/id/OIP.0hlsWYbMsgx3kST73HFt0QHaE7?w=282&h=188&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"><h2>Sanity Check</h2><p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti delectus cum sint, modi iure excepturi voluptatem. Maxime culpa nostrum consequatur assumenda sint libero obcaecati non?
+        </p>
+      <input type="button" value="Read More">
+    </div>
+        </div>
+    </div>
+
+</body>
+</html>
