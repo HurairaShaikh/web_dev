@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            transition: width 2s ,height 4s,border-radius 4s,bachground 6s; 
+        }
+        .circle:hover{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: skyblue;
+        }
+        a{
+            background-color: darkblue;
+            display: inline-block;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            font-size: 0.75rem;
+            letter-spacing: 0.2rem;
+            font-weight: 300;
+            padding: 1em 2em 1.1em;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            vertical-align: top;
+            margin-top: 100px;
+        }
+
+        @keyframes bouncing {
+            0%{
+                bottom: 0;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            }
+            100%{
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <a>Loading</a>
+</body>
+</html>
