@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .main{
+            display: grid;
+           grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+          gap: 10px;
+         grid-auto-rows: minmax(50px,auto);
+         grid-auto-columns: minmax(50px,auto);
+         /* color: #fff;
+         text-align: center; */
+        }
+        .item1{
+            border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+            grid-row-start: 1;
+            grid-row-end: 10;
+           
+        }
+        .item2{
+            border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 1;
+            grid-row-end: 5;
+        }
+        .item3{
+            border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 5;
+            grid-row-end: 10;
+        }
+        .item4{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .item5{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 4;
+            grid-row-end: 7;
+        }
+        .item6{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 7;
+            grid-row-end: 10;
+        }
+        .item7{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .item8{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .item9{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 5;
+            grid-row-end: 7;
+        }
+        .item10{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 7;
+            grid-row-end: 10;
+        }
+        .item11{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .item12{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .item13{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .item14{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        .item15{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .item16{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 6;
+            grid-row-end: 10;
+        }
+        .item17{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .item18{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .item19{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .item20{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        .item21{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .item22{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 6;
+            grid-row-end: 7;
+        }
+        .item23{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start:7;
+            grid-row-end: 8;
+        }
+        .item24{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 8;
+            grid-row-end: 9;
+        }
+        .item25{
+           border: 3px solid rgb(169, 255, 155);
+            background-color: rgb(169, 255, 155);
+             grid-row-start: 9;
+            grid-row-end: 10;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+        <div class="item13">13</div>
+        <div class="item14">14</div>
+        <div class="item15">15</div>
+        <div class="item16">16</div>
+        <div class="item17">17</div>
+        <div class="item18">18</div>
+        <div class="item19">19</div>
+        <div class="item20">20</div>
+        <div class="item21">21</div>
+        <div class="item22">22</div>
+        <div class="item23">23</div>
+        <div class="item24">24</div>
+        <div class="item25">25</div>
+      
+    </div>
+</body>
+</html>
