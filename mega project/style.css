@@ -33,7 +33,17 @@ nav a:hover{
     color: black;
 }
 
+section{
+    text-align: center;
+}
 
+section  h2 span{
+    text-align: center;
+    padding: 10px 55px;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(to right,#f5d837,#bbb812 );
+}
 @media screen and (max-width:700px) {
     nav  {
         flex-direction: column;
