@@ -5,7 +5,34 @@
     background-repeat: no-repeat;
     background-position: top center ;
     background-size: 50%;
+    background-attachment: fixed;
 }
 header{
     background-color: black;
+}
+
+nav  {
+    display: flex;
+  
+    background-color: rgb(57, 55, 55);
+    
+}
+nav a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+}
+.flex_align_right{
+    margin-left: auto;
+}
+@media screen and (max-width:700px) {
+    nav  {
+        flex-direction: column;
+    }
+    .flex_align_right{
+    margin-left: 0 ;
+}
 }
