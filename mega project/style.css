@@ -28,6 +28,12 @@ nav a{
 .flex_align_right{
     margin-left: auto;
 }
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+
 @media screen and (max-width:700px) {
     nav  {
         flex-direction: column;
