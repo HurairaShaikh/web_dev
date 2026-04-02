@@ -145,6 +145,15 @@ section h2 span {
     color: #000000;
 }
 
+.about_us{
+    margin: 50px;
+}
+.about_title{
+    color: #1205fe;
+    font-size: 1.2em;
+    padding: 0px 10px ;
+}
+
 @media screen and (max-width:700px) {
     nav {
         flex-direction: column;
