@@ -125,20 +125,24 @@ section h2 span {
     text-decoration: none;
     font-size: 1.2em;
 }
-.sm-handle a :hover{
-background-color: rgb(30 30 30 / 25%);
+
+.sm-handle a :hover {
+    background-color: rgb(30 30 30 / 25%);
 }
 
-.sm-handle a i{
+.sm-handle a i {
     margin: 5px;
 }
-.yt-color{
+
+.yt-color {
     color: #ff0000;
 }
-.linkedin-color{
+
+.linkedin-color {
     color: #0e76a8;
 }
-.github-color{
+
+.github-color {
     color: #000000;
 }
 
