@@ -145,13 +145,20 @@ section h2 span {
     color: #000000;
 }
 
-.about_us{
+.about_us {
     margin: 50px;
 }
-.about_title{
+
+.about_title {
     color: #1205fe;
     font-size: 1.2em;
-    padding: 0px 10px ;
+    padding: 0px 10px;
+}
+
+.about_content {
+    color: #1c1a3a;
+    padding-bottom: 10px 0px 20px 0px;
+    font-weight: 900;
 }
 
 @media screen and (max-width:700px) {
