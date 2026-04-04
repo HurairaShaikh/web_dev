@@ -1,0 +1,8 @@
+button{
+    background-color: palevioletred;
+    color: white;
+    padding: 20px;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    min-width: 50%;
+}
