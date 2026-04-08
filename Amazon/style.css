@@ -8,6 +8,8 @@
     background-color: #0f1111;
     color: white;
     height: 60px;
+    display: flex;
+    align-items: center;
 
 }
 .nav-logo{
@@ -26,4 +28,27 @@
     width: 100%;
     background-image: url("amaxon-logo.png");
     background-size: cover;
+}
+
+/* 2 Box */
+.first-text{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 23px;
+}
+.sec-text{
+  font-size: 1rem;
+  margin-left: 2px;
+}
+
+.address-in{
+    display: flex;
+    align-items: center;
+}
+
+/* 3 Box */
+.nav-search-bar{
+display: flex;
+align-self: center;
+
 }
