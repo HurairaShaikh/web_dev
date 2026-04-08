@@ -13,11 +13,31 @@
         .Login-Signup,
         .Contact-us{
            height: 100vh;
-            background-color: aquamarine;
+            background-color: paleturquoise;
             text-align: center;
              font-size: 100px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
         }
-        
+         nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+        nav {
+            
+            position: fixed;
+             top: 0;
+      left: 0;
+      width: 100%;      
+      background: darkblue;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;    
+        }
        
           
     </style>
@@ -33,7 +53,7 @@
             <a href="#Home">Home</a>
             <a href="#About">About</a>
             <a href="#Services">Services</a>
-            <a href="#Login-signup">Login/signup</a>
+            <a href="#Login-Signup">Login/signup</a>
             <a href="#Contact-us">Contact us</a>
         </nav>
         <section id="Home" class="Home"> Home </section>
