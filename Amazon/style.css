@@ -10,7 +10,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -63,6 +63,9 @@ justify-content: space-evenly;
 
 
 }
+.nav-search-bar:hover{
+    border: 2px solid orange;
+}
 
 .select-bar {
     background-color: #f3f3f3f3;
@@ -72,20 +75,63 @@ justify-content: space-evenly;
     width: 60px;
     text-align: center;
 }
-.search-bar{
+
+.search-bar {
     color: #0f1111;
     border: none;
     width: 100%;
-    font-size: 1rem;
+     font-size: 1rem;
 }
 
 .search-icon {
     background-color: #ffb24e;
     display: flex;
     justify-content: center;
-  align-items:  center;
+    align-items: center;
     color: black;
     width: 50px;
     font-size: 1.2rem;
+      border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 
+}
+
+/* 4 Box */
+
+.lan {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0f1111;
+    border: none;
+}
+
+/* 5 BOx */
+
+.auth-first {
+    margin-left: 4px;
+    font-size: 0.85rem;
+}
+
+.auth-select {
+    font-weight: bold;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+/* 6 BOx */
+.pol-first{
+    font-size: 0.85rem;
+}
+.pol-sec{
+    font-weight: bold;
+}
+
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: bold;
 }
