@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smooth Scroll</title>
     <style>
-      
+      html{
+        scroll-behavior: auto;
+      }
         .Home,
         .About,
         .Services,
         .Login-Signup,
         .Contact-us {
             height: 100vh;
+            color: white;
             background-color: paleturquoise;
             text-align: center;
             font-size: 100px;
@@ -52,7 +55,7 @@
             <a href="#Login-Signup">Login/signup</a>
             <a href="#Contact-us">Contact us</a>
         </nav>
-        <section id="Home" class="Home"> Home </section>
+        <section id="Home" class="Home"> Home</section>
         <section id="About" class="About">About</section>
         <section id="Services" class="Services">Services</section>
         <section id="Login-Signup" class="Login-Signup">Authentication</section>
