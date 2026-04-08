@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+ 
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.logo{
+    height: 40px;
+    width: 100%;
+    background-image: url("amaxon-logo.png");
+    background-size: cover;
+}
