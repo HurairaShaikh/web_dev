@@ -118,11 +118,13 @@
     background-color: #0f1111;
     color: white;
     border: none;
+    
 }
 
 /* 6 BOx */
 .pol-first{
     font-size: 0.85rem;
+    padding: 5px;
 }
 .pol-sec{
     font-weight: bold;
@@ -132,6 +134,7 @@
     font-size: 30px;
 }
 .cart{
+    padding: 10px;
     font-size: 0.85rem;
     font-weight: bold;
 }
