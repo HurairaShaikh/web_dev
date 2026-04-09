@@ -32,9 +32,14 @@
     width: 100%;
     background-image: url("amaxon-logo.png");
     background-size: cover;
+    padding-top: 8px;
 }
 
 /* 2 Box */
+.location{
+    padding: 10px;
+}
+
 .first-text {
     color: #cccccc;
     font-size: 0.85rem;
@@ -60,6 +65,7 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
+    
 
 
 }
@@ -104,10 +110,14 @@
     font-weight: bold;
     background-color: #0f1111;
     border: none;
+    padding: 10px;
 }
 
 /* 5 BOx */
 
+.auth{
+    padding: 10px;
+}
 .auth-first {
     margin-left: 4px;
     font-size: 0.85rem;
@@ -122,14 +132,18 @@
 }
 
 /* 6 BOx */
+
+.policies{
+    padding: 10px;
+}
 .pol-first{
     font-size: 0.85rem;
-    padding: 5px;
-}
+   }
 .pol-sec{
     font-weight: bold;
 }
 
+/* Box 7 */
 .cart i{
     font-size: 30px;
 }
