@@ -152,3 +152,17 @@
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+/* 2 Line */
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+}
+
+.panel-options p{
+    display: inline;
+}
