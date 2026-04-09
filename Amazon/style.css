@@ -166,3 +166,14 @@
 .panel-options p{
     display: inline;
 }
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+
+
+}
+.panel-offers{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
