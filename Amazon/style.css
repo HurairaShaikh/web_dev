@@ -30,7 +30,7 @@
 .logo {
     height: 40px;
     width: 100%;
-    background-image: url("amaxon-logo.png");
+    background-image: url("./assets/amaxon-logo.png");
     background-size: cover;
     padding-top: 8px;
 }
