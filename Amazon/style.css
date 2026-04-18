@@ -223,7 +223,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(235, 247, 235);
+    background:linear-gradient(rgb(235, 247, 235) 30%,rgb(219, 215, 215) 70%) ;
 
 }
 
@@ -242,4 +242,40 @@
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+/* Sign in */
+
+.sign-in{
+  height: 100px;
+  padding: 0px 20px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.signin-button input[type="button"]{
+    display: block;
+    background-color: #ffd106;
+    width: 152px;
+    padding:  5px 11px;
+    border: none;
+    border-radius: 15px;
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+
+}
+.sign-in span{
+  margin-top: 5px;
+  margin-bottom: 20px;
+    color: #2161a1;
+}
+
+/* Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    
 }
