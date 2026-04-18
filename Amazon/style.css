@@ -185,7 +185,7 @@
 
 .carousel {
   width: 100%;
-  height: 450px;         
+  height: 280px;          
   overflow: hidden;       
   white-space: nowrap;    
 }
@@ -193,14 +193,42 @@
 .carousel-cell {
   display: inline-block;
   width: 100%;           
-  height: 100%;
+  height: auto;
 }
 
 .carousel-cell img {
   width: 100%;            
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
-/* Shop Section */
+/* Shop  Section */
 
+.box{
+  
+    height: 400px;
+    width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(235, 247, 235);
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box1 p{
+    color: #2161a1
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
