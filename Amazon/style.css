@@ -328,4 +328,18 @@ ul a {
     background-size: cover;
 }
 
-.foot-panel4 {}
+.foot-panel4 {
+    height: 100px;
+    background-color: #0f1111;
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copy-right {
+    padding-top: 5px;
+}
