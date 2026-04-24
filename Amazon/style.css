@@ -226,7 +226,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background:linear-gradient(rgb(235, 247, 235) 30%,rgb(219, 215, 215) 70%) ;
+    background: linear-gradient(rgb(235, 247, 235) 30%, rgb(219, 215, 215) 70%);
 
 }
 
@@ -249,37 +249,40 @@
 
 /* Sign in */
 
-.sign-in{
-  height: 100px;
-  padding: 0px 20px ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+.sign-in {
+    height: 100px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-.signin-button input[type="button"]{
+
+.signin-button input[type="button"] {
     display: block;
     background-color: #ffd106;
     width: 152px;
-    padding:  5px 11px;
+    padding: 5px 11px;
     border: none;
     border-radius: 15px;
-  margin-top: 10px; 
-  margin-bottom: 5px; 
+    margin-top: 10px;
+    margin-bottom: 5px;
 
 }
-.sign-in span{
-  margin-top: 5px;
-  margin-bottom: 20px;
+
+.sign-in span {
+    margin-top: 5px;
+    margin-bottom: 20px;
     color: #2161a1;
 }
 
 /* Footer */
-footer{
+footer {
     margin-top: 15px;
 }
-.foot-panel1{
+
+.foot-panel1 {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -288,7 +291,8 @@ footer{
     align-items: center;
     font-size: 0.85rem;
 }
-.foot-panel2{
+
+.foot-panel2 {
     height: 300px;
     color: white;
     background-color: #222f3d;
@@ -296,30 +300,32 @@ footer{
     justify-content: space-evenly;
 }
 
-ul{
+ul {
     margin-top: 20px;
 }
-ul a{
+
+ul a {
     margin-top: 10px;
- display: block;
- font-size: 0.85rem;
- color: #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
 }
 
-.foot-panel3{
- background-color: #222f3d;
- color: white;
- height: 70px;
- border-top: 0.5px solid white;
- display: flex;
- align-items: center;
- justify-content: center;
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo{
-  height: 40px;
+.logo {
+    height: 40px;
     width: 100px;
     background-image: url("./assets/amaxon-logo.png");
     background-size: cover;
 }
 
+.foot-panel4 {}
