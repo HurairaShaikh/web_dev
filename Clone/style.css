@@ -1,10 +1,28 @@
 *{
     margin: 0;
+    border: border-box;
 
 }
 .nav-bar{
     height: 118px;
+    color: white;
     background-color: #f85606;
    display: flex;
-   
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 130px;
+    height: 40px;
+    background-image: url("./assets/darazlogo.png");
+    background-size: cover;
+
 }
