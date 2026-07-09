@@ -5,20 +5,20 @@
 
 }
 
-/* NavBar */
-.nav-bar {
-    height: 118px;
+/* First NavBar */
+.navbar {
+    height: 18px;
     color: white;
     background-color: #f85606;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Links */
 .links {
-    align-self: flex-start;
-    justify-content: end;
+    display:flex;
+    justify-content:flex-end;
 }
 
 .links-options p {
@@ -29,6 +29,16 @@
 
 .links-options :hover {
     color: wheat
+}
+
+/* Second Navbar */
+.navbar-second{
+     height: 118px;
+    color: white;
+    background-color: #f85606;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* Logo */
@@ -48,18 +58,38 @@
 .search-bar {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 45px;
-    width: 700px;
+    width: 688px;
     background-color: white;
-    padding: 20px;
+    padding-left: 15px;
 
+}
+
+.search-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #FFE1D2;
+    color: #f85606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .search {
     height: 40px;
-   width: 600px;
-   border: none;
-   font-size: 0.83rem;
+    width: 100%;
+    border: none;
+    font-size: 0.83rem;
 
+}
+
+/* Cart */
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
 }
