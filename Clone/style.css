@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+
+}
+.nav-bar{
+    height: 118px;
+    background-color: #f85606;
+   display: flex;
+   
+}
