@@ -6,20 +6,17 @@
 }
 
 /* First NavBar */
-.navbar {
+.navbar-above {
     height: 18px;
     color: white;
     background-color: #f85606;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 /* Links */
-.links {
-    display:flex;
-    justify-content:flex-end;
-}
+
 
 .links-options p {
     display: inline;
@@ -32,13 +29,15 @@
 }
 
 /* Second Navbar */
-.navbar-second{
-     height: 118px;
+.navbar-bottom {
+    height: 118px;
     color: white;
     background-color: #f85606;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding: 11px 0px 0px 40px;
+
 }
 
 /* Logo */
@@ -86,10 +85,10 @@
 }
 
 /* Cart */
-.cart{
+.cart {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    width: 30px;
+    height: 100px;
+    width: 100px;
 }
