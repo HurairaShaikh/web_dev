@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     height: 45px;
-    width: 688px;
+    width: 700px;
     background-color: white;
     padding: 20px;
 
@@ -58,9 +58,8 @@
 
 .search {
     height: 40px;
-   width: 670px;
+   width: 600px;
    border: none;
    font-size: 0.83rem;
-   
-  
+
 }
