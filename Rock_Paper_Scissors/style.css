@@ -1,10 +1,10 @@
 *{
     margin: 0px;
+    text-align: center;
 }
 h1{
     color: white;
     background-color: #081b31;
-    text-align: center;
     line-height: 5rem;
 }
 .choices{
@@ -38,30 +38,28 @@ img{
 .scores{
     display: flex;
     margin-top: 50px;
-    font-size: 3rem;
+    font-size: 2rem;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
 }
-.user-score{
-    margin-right: 50px;
+
+#user-score,#comp-score{
+    font-size: 4rem;
 }
-.players{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+
+.message{
     margin-top: 50px;
-    font-size: 1.5rem;
-}
-#users{
-    margin-right: 20px;
-}
-.msg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 1.5rem;
-     background-color: aquamarine;
-    color: white; 
 } 
+
+#msg{
+    display: inline;
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
    
