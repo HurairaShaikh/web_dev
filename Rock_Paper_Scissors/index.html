@@ -11,20 +11,26 @@
         <h1>Rock Paper Scissors</h1>
     </header>
     <div class="images">
-        <img class="img1" src="assets/rock.png" alt="rock">
-        <img class="img2" src="assets/paper.png" alt="paper">
-        <img class="img3" src="assets/scissors.png" alt="scissors">
+        <div class="imag">
+            <img id="rock" src="assets/rock.png" alt="rock">
+            <img id="paper" src="assets/paper.png" alt="paper">
+            <img id="scissors" src="assets/scissors.png" alt="scissors">
+        </div>
     </div>
+
     <div class="scores">
-        <div class="user-score">0</div>
-        <div class="Computer-score">0</div>
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>Your</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
     </div>
-    <div class="players">
-        <p id="users">Your Score</p>
-        <p id="Computer">Computer Score</p>
-    </div>
-    <div class="msg">
-        Make Your Choices
+    <div class="message">
+        <p id="msg"> Make Your Choices</p>
+       
     </div>
     <script src="script.js"></script>
 </body>
