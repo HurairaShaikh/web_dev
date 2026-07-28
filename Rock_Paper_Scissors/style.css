@@ -40,5 +40,15 @@ img{
     align-items: center;
 }
 .user-score{
-    margin-right: 30px;
+    margin-right: 50px;
+}
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+#users{
+    margin-right: 20px;
 }
