@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+h1{
+    color: white;
+    background-color: sienna;
+    text-align: center;
+    line-height: 5rem;
+}
+.images{
+    display: flex;
+    /* border-radius: 50%; */
+}
+.img1:hover{
+    border: 5px solid black;
+}
+.img2:hover{
+    border: 5px solid black;
+}
+.img3:hover{
+    border: 5px solid black;
+}
+img{
+     height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius:50% ;
+}
