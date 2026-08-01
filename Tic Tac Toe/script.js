@@ -41,12 +41,14 @@ const checkWinner = () => {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
                 console.log("winner", pos1Val);
                 disabledBtn();
-                msg.innerText = "Winner is " + pos1Val;
                 msg.classList.remove("hide");
+                msg.innerText = "Winner is " + pos1Val;
             }
         }
     }
 }
+// when winner is show only winner and rest should be hidden;
+// const showWinner = () => {}
 
 const disabledBtn = () => {
     for (let box of boxes) {
