@@ -11,14 +11,26 @@ body{
 .container{
     /* background-color: aqua; */
     height: 70vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
     
 }
 
 .game{
     /* background-color: salmon; */
-    height: 65vmin;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4vmin;
+   
 }
 
 .box{
-
+    height: 18vmin;
+    width: 18vmin;
+    
 }
