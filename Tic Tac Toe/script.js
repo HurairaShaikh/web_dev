@@ -43,3 +43,12 @@ const checkWinner = () => {
        }
     }
 } 
+
+const resetBttn = () => {
+    for (let box of boxes) {
+        box.innerText = "";
+    }
+    turnO = true; 
+}
+
+resetBtn.addEventListener("click",resetBttn);
