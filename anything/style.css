@@ -32,5 +32,10 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border: none;
+    font-size:8vmin;
+    color:tomato
     
 }
