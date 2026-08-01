@@ -8,6 +8,11 @@ body{
     text-align: center;
 }
 
+h1{
+    margin-top: 20px;
+    color: #ffffc7;
+}
+
 .container{
     /* background-color: aqua; */
     height: 70vh;
@@ -36,7 +41,8 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     border: none;
     font-size:8vmin;
-    color:tomato
+    color:chocolate;
+    background-color: #ffffc7;
     
 }
 #reset{
