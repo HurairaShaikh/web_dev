@@ -56,12 +56,12 @@ const disabledBtn = () => {
     }
 }
 
-// const resetBttn = () => {
-//     for (let box of boxes) {
-//         box.innerText = "";
-//     }
-//     turnO = true;
-//     msg.classList.add("hide");
-// }
+const resetBttn = () => {
+    for (let box of boxes) {
+        box.innerText = "";
+    }
+    turnO = true;
+    msg.classList.add("hide");
+}
 
-// resetBtn.addEventListener("click", resetBttn);
+resetBtn.addEventListener("click", resetBttn);
