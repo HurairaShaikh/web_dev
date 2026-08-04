@@ -37,14 +37,14 @@ const checkWinner = () => {
         let pos2Val = boxes[pattern[1]].innerText;
         let pos3Val = boxes[pattern[2]].innerText;
 
-        // if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
-        //     if (pos1Val === pos2Val && pos2Val === pos3Val) {
-        //         console.log("winner", pos1Val);
-        //         disabledBtn();
-        //         msg.classList.remove("hide");
-        //         msg.innerText = "Winner is " + pos1Val;
-        //     }
-        // }
+        if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
+            if (pos1Val === pos2Val && pos2Val === pos3Val) {
+                console.log("winner", pos1Val);
+                disabledBtn();
+                msg.classList.remove("hide");
+                msg.innerText = "Winner is " + pos1Val;
+            }
+        }
     }
 }
 // when winner is show only winner and rest should be hidden; anf for points also and new btn in hidden part
