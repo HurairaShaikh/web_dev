@@ -10,18 +10,16 @@ body{
 }
 
 h1{
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
 }
 
 .container{
     /* background-color: aqua; */
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items:flex-start;
     justify-content:center;
-   
-    
 }
 
 .game{
@@ -77,6 +75,6 @@ p{
     gap: 3rem;
 }
 
-/* #user-score,#comp-score{
+#user-score,#comp-score{
     font-size: 2rem;
-} */
+}
