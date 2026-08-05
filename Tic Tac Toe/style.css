@@ -18,8 +18,9 @@ h1{
     /* background-color: aqua; */
     height: 70vh;
     display: flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
+   
     
 }
 
