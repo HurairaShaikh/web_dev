@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #7da37b;
     text-align: center;
 }
 
-h1{
+h1 {
     margin-top: 10px;
     color: white;
     margin-bottom: 10px;
 }
 
-.container{
+.container {
     /* background-color: aqua; */
     height: 60vh;
     display: flex;
-    align-items:flex-start;
-    justify-content:center;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.game{
+.game {
     /* background-color: salmon; */
     height: 60vmin;
     width: 60vmin;
@@ -32,55 +32,57 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 1.4vmin;
-   
+
 }
 
-.box{
+.box {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     border: none;
-    font-size:8vmin;
-    color:chocolate;
+    font-size: 8vmin;
+    color: chocolate;
     background-color: #ffffc7;
-    
+
 }
-#reset{
+
+#reset {
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     border: none;
-    font-size:1rem;
-    color:white;
-    background-color:black;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
 
 }
 
-p{
+p {
     font-size: 1.5rem;
     color: white;
     margin-bottom: 20px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.scores{
+.scores {
     display: flex;
     /* margin-top: 50px; */
     font-size: 1rem;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    
+
 }
 
-p{
+p {
     color: #000000;
 }
 
-#user-score,#comp-score{
+#user-score,
+#comp-score {
     font-size: 2rem;
 }
