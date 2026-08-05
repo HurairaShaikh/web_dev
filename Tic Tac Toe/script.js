@@ -59,7 +59,9 @@ const checkWinner = () => {
     }
 }
 // when winner is show only winner and rest should be hidden; anf for points also and new btn in hidden part
-// const showWinner = () => {}
+// const showWinner = () => {
+    
+// }
 
 const disabledBtn = () => {
     for (let box of boxes) {

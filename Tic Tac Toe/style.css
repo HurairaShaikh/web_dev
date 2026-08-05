@@ -42,6 +42,7 @@ h1 {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     border: none;
     font-size: 8vmin;
+    font-weight: 600;
     color: chocolate;
     background-color: #ffffc7;
 
@@ -75,6 +76,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    font-weight: 600;
 
 }
 
