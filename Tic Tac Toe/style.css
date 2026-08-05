@@ -74,6 +74,11 @@ p{
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    
+}
+
+p{
+    color: #000000;
 }
 
 #user-score,#comp-score{
