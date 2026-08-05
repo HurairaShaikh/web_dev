@@ -1,7 +1,11 @@
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset");
 let msg = document.getElementById("msg");
+let playerX = document.getElementById("Player-X");
+let playerO = document.getElementById("Player-O");
 
+let countX = 0;
+let countO = 0;
 let turnO = true;
 
 const winPatterns = [
@@ -39,6 +43,13 @@ const checkWinner = () => {
 
         if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
+                if (pos1Val === "X") {
+                    countX++;
+                    playerX.innerText = countX;
+                } else {
+                    countO++;
+                    playerO.innerText = countO;
+                }
                 console.log("winner", pos1Val);
                 disabledBtn();
                 msg.classList.remove("hide");
@@ -59,6 +70,7 @@ const disabledBtn = () => {
 const resetBttn = () => {
     for (let box of boxes) {
         box.innerText = "";
+        box.disabled = false;
     }
     turnO = true;
     msg.classList.add("hide");
