@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
-   justify-content: center;
+    justify-content: space-around;
 }
 
-.links{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.nav-bar a {
+    text-decoration: none;
 }
