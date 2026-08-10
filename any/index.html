@@ -10,9 +10,9 @@
 
 <body>
     <header>
-        <!-- <h1>
-            Huraira Shaikh
-        </h1> -->
+        <h3>
+            Huraira Shaikh's Portfolio
+        </h3    >
         <div class="nav-bar">
             <nav>
                 <a href="#">About</a>
@@ -27,19 +27,31 @@
     <main>
         <section>
             <div class="heading">
-                <h1>
-                    Hi, I am
-                     <span id="name">
-                        Huraira Shaikh
-                    </span>
-                    <br>
-                    & I am a
-                </h1>
+
+                Hi, My Name is
+                <br>
+                <span class="name">
+                    Huraira Shaikh
+                </span>
+                <br>
+                & I am a
+                <br>
+                <span id="element" class="name"></span>
+
             </div>
 
         </section>
     </main>
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Mobile App Developer', 'Problem solver', 'web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-- <script src="script.js"></script> -->
 </body>
-<script src="script.js"></script>
 
 </html>
