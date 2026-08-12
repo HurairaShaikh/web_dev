@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <H1>
@@ -14,33 +17,50 @@
     </header>
 
     <main>
-        <h1>
-            Currency Converter
-        </h1>
+        <div class="container">
+
+            <form action="">
+                <div class="amount">
+                    <p>Enter Amount</p>
+                    <input type="text" name="text" required placeholder="100">
+                </div>
+                <div class="dropdown">
+               <div class="from">
+                <img src="" alt="">
+                   <p>From</p>
+                <div class="select-container">
+                    <select name="from">
+                        <option value="USD">USD</option>
+                        <option value="PK">PK</option>
+                        <option value="EURO">EURO</option>
+                        <option value="AED">AED</option>
+                    </select>
+                </div>   
+            </div>
+
+            <div class="to">
+                <p>To</p>
+                <img src="" alt="">
+                <div class="select-container">
+                    <select name="to">
+                        <option value="PK">PK</option>
+                        <option value="USD">USD</option>
+                        <option value="EURO">EURO</option>
+                        <option value="AED">AED</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="msg">
+            1 USD = 270 PK 
+        </div>
+        <button class="btn">Exchange Rates</button>
         
-        <p>Enter Amount</p>
-        <input type="text" name="text" required placeholder="100">
-        <div class="options">
-            <p>From</p>
-            <select  >
-                <option value="USD">USD</option>
-                <option value="PK">PK</option>
-                <option value="EURO">EURO</option>
-                <option value="AED">AED</option>
-            </select>
-        </div>
-        <div class="options">
-            <p>To</p>
-            <img src="R.png" alt="a">
-            <select  >
-                <option value="USD">USD</option>
-                <option value="PK">PK</option>
-                <option value="EURO">EURO</option>
-                <option value="AED">AED</option>
-            </select>
-        </div>
+    </form>
+</div>
     </main>
     <script src="file.js"></script>
     <script src="code.js"></script>
 </body>
+
 </html>

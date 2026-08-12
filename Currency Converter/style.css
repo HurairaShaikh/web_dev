@@ -1,8 +1,42 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
 
 img{
-    height: 50px;
+    height: 30px;
+}
+
+body{
+    background-color: rgb(208, 232, 183);
+}
+h1{
+    text-align: center;
+
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.all{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 0.8rem;
+    text-align: center;
 }
