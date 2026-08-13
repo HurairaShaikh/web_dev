@@ -12,17 +12,21 @@ body{
     background-color: #000;
     height: 80vh;
 }
+h2{
+    color: white;
+}
 
 
 .container{
   height: 60vh;
   background-color: rgb(126, 213, 226);
-  width: 40vh;
+  width: 50vh;
   padding: 2rem;
   border-radius: 1rem;
 }
 
 .amount{
+
 }
 
 .dropdown{
@@ -33,6 +37,10 @@ body{
     text-align: center;
 }
 
+.msg{
+    margin: 20px 0 0 60px;
+    color: white;
+}
 .btn{
     margin-top: 30px;
     padding: 10px;
