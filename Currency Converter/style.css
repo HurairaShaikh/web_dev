@@ -1,36 +1,39 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: teal;
     height: 80vh;
 }
-h2{
+
+h2 {
     color: white;
 }
 
 
-.container{
-  height: 70vh;
-  background-color: rgb(126, 213, 226);
-  width: 50vh;
-  padding: 2rem;
-  border-radius: 1rem;
+.container {
+    height: 70vh;
+    background-color: darkgoldenrod;
+    width: 50vh;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 form {
-  margin: 2rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 
-form input,select,button{
+form input,
+select,
+button {
     width: 100%;
     border-radius: 0.8rem;
     border: none;
@@ -44,7 +47,7 @@ form input {
     height: 3rem;
 }
 
-.dropdown{
+.dropdown {
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -52,29 +55,37 @@ form input {
     text-align: center;
 }
 
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 .select-container img {
-  max-width: 2rem;
+    max-width: 2rem;
 }
 
 .select-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 6rem;
-  border-radius: 0.5rem;
-  border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid lightgray; */
 }
 
 .select-container select {
-  font-size: 1rem;
-  width: auto;
+    font-size: 1rem;
+    width: auto;
+    background-color: darkgoldenrod;
+    color: white;
 }
 
-.msg{
+.msg {
     margin: 20px 0 0 60px;
     color: white;
 }
-.btn{
+
+.btn {
     margin-top: 30px;
     padding: 10px;
     background-color: purple;
