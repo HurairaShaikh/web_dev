@@ -72,6 +72,15 @@ hr {
 #about{
     margin-top: 3rem;
     height: 100vh;
+    margin: 5rem;
+
+}
+#about h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+#about p{
+    font-size: 1rem;
 }
 #education{
     margin-top: 3rem;
@@ -87,4 +96,8 @@ hr {
 }
 html{
     scroll-behavior: auto;
+}
+
+#element{
+    
 }
