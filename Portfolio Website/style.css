@@ -13,18 +13,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    /* position: sticky; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #895ed2;
+    padding: 1rem;
 }
+
 
 .nav-bar a {
     text-decoration: none;
     color: white;
-    margin-left: 30px;
+    padding: 1rem;
 }
 
 .nav-bar a:hover {
-    opacity: 0.8;
     cursor: pointer;
+    color: #895ed2;
+    background-color: white;
 }
 
 .heading {
@@ -62,42 +69,47 @@ img {
 
 hr {
     border: none;
-    border-top: 3px solid #362a7b;
+    border-top: 3px solid #895ed2;
     text-align: center;
     height: 5px;
     margin: 40px;
 }
 
 /* About */
-#about{
+#about {
     margin-top: 3rem;
     height: 100vh;
     margin: 5rem;
 
 }
-#about h2{
+
+/* #about h2{
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 #about p{
     font-size: 1rem;
-}
-#education{
+} */
+#Skills {
     margin-top: 3rem;
     height: 100vh;
+    margin: 5rem;
 }
-#experience{
+
+#experience {
     margin-top: 3rem;
     height: 100vh;
+    margin: 5rem;
 }
-#contact-me{
+
+#contact-me {
     margin-top: 3rem;
     height: 100vh;
+    margin: 5rem;
 }
-html{
+
+html {
     scroll-behavior: auto;
 }
 
-#element{
-    
-}
+#element {}
