@@ -28,7 +28,7 @@ header {
 }
 
 .heading {
-    margin: 100px 0 0 100px;
+    margin: 0px 0 0 100px;
 }
 
 .name {
@@ -36,14 +36,15 @@ header {
 }
 
 .heading {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .sections {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: 70vh;
+    margin-top: 2.3rem;
 }
 
 .left {
@@ -51,7 +52,7 @@ header {
 }
 
 img {
-    height: 350px;
+    height: 400px;
     background-size: cover;
 }
 
