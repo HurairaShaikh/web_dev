@@ -87,9 +87,14 @@ hr {
     margin: 5rem;
 
 }
-/* #about img{
-     height: 250px;
-} */
+#about img{
+    float: right;
+    width: 500px;
+    height: 250px;
+    background-size: cover;
+    padding: 10px;
+    border: 2px solid #895ed2;
+}
 
 #about h2{
     font-size: 2rem;
