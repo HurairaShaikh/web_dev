@@ -50,6 +50,22 @@ header {
     font-size: 40px;
 }
 
+.socials{
+ margin-left: 10rem;
+
+}
+.socials button{
+    padding: 5px;
+    width: 100px;
+    background-color: #895ed2;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.socials a,i{
+    margin-left: 3px;
+    text-decoration: none;
+    color: white;
+}
 
 .sections {
     display: flex;
