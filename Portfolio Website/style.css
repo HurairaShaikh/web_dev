@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    /* background-color: #462214; */
+    background-color: #462214;
     color: #fff;
    
 }
@@ -21,11 +21,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    /* background-color: #462214; */
-     background-image: url("./assets/frame.png");
+    background-color: #462214;
+     /* background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1rem;
+    */
+    padding: 1rem; 
 }
 
 
@@ -76,10 +77,10 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 70vh;
-    margin-top: 2.3rem;
-         background-image: url("./assets/frame.png");
+    margin-top: 0;
+         /* background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;  */
 
 }
 
