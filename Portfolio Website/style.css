@@ -15,10 +15,12 @@ body {
 
 }
 
-#Home{
+#Home {
     height: 85vh;
 }
-#Home,header {
+
+#Home,
+header {
     background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +71,7 @@ header {
 .socials {
     margin-top: 50px;
     margin-right: 50px;
-   }
+}
 
 .socials button {
     padding: 5px;
@@ -94,7 +96,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+
 }
 
 .left,
@@ -102,7 +104,8 @@ i {
     width: 40%;
 
 }
-.left{
+
+.left {
     height: 20rem;
     /* background-color: red; */
     display: flex;
@@ -118,10 +121,10 @@ img {
 
 hr {
     border: none;
-    border-top: 3px solid #131362;
+    border-top: 8rem solid #131362;
     text-align: center;
     height: 5px;
-    margin: 40px 60px 0 60px;
+    /* margin: 40px 60px 0 60px; */
 }
 
 #about,
