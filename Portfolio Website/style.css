@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -12,6 +13,12 @@ body {
     background-color: #462214;
     color: #fff;
 
+}
+#Home{
+       background-image: url("./assets/frame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -30,16 +37,23 @@ header {
     height: 6rem;
 }
 
-
+.nav-bar{
+    margin-left: 10rem;
+}
 .nav-bar a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
+     font-weight: bold;
+    width: 147px;
+    height: 46px;
+    padding: 0.9rem;
+    
 }
 
 .nav-bar a:hover {
     cursor: pointer;
     color: #131362;
+    font-weight: bold;
     background-color: white;
     border-radius: 50px;
 }
@@ -50,7 +64,7 @@ header {
 }
 
 .name {
-    color: #895ed2;
+    color: black;
 }
 
 .socials {
@@ -81,10 +95,10 @@ i {
     justify-content: space-around;
     height: 70vh;
     /* margin-top: 1rem; */
-    background-image: url("./assets/frame.png");
+    /* background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
 }
 
