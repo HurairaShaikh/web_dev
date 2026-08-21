@@ -11,22 +11,23 @@ html {
 body {
     background-color: #462214;
     color: #fff;
-   
+
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 1000;
-    background-color: #462214;
-     /* background-image: url("./assets/frame.png");
+    z-index: 1000; */
+    /* background-color: #462214; */
+    background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
-    */
-    padding: 1rem; 
+    background-attachment: fixed;
+    padding: 1rem;
+    height: 6rem;
 }
 
 
@@ -38,8 +39,9 @@ header {
 
 .nav-bar a:hover {
     cursor: pointer;
-    color: #895ed2;
+    color: #131362;
     background-color: white;
+    border-radius: 50px;
 }
 
 .heading {
@@ -54,18 +56,22 @@ header {
     font-size: 40px;
 }
 
-.socials{
- margin-left: 10rem;
+.socials {
+    margin-left: 10rem;
 
 }
-.socials button{
+
+.socials button {
     padding: 5px;
     width: 100px;
     background-color: #895ed2;
     border: 1px solid black;
     margin-right: 10px;
+    
 }
-.socials a,i{
+
+.socials a,
+i {
     margin-left: 3px;
     text-decoration: none;
     color: white;
@@ -77,25 +83,22 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 70vh;
-    margin-top: 0;
-         /* background-image: url("./assets/frame.png");
+    /* margin-top: 1rem; */
+    background-image: url("./assets/frame.png");
     background-repeat: no-repeat;
-    background-size: cover;  */
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
-.left {
+.left , .right {
     width: 40%;
-    
+
 }
 
 img {
     height: 400px;
     background-size: cover;
-}
-
-.right {
-    width: 40%;
 }
 
 hr {
@@ -106,15 +109,15 @@ hr {
     margin: 40px 60px 0 60px;
 }
 
-/* About */
-#about {
+#about, #Skills, #projects,#contact-me {
     margin-top: 3rem;
     height: 70vh;
     margin: 5rem;
-
+    
 }
 
 
+/* About */
 #about img {
     float: right;
     width: 500px;
@@ -136,14 +139,6 @@ hr {
 }
 
 
-
-#Skills {
-    margin-top: 3rem;
-    height: 70vh;
-    margin: 5rem;
-}
-
-
 #Skills h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -155,23 +150,4 @@ hr {
     padding: 10px;
 }
 
-
-#projects {
-    margin-top: 3rem;
-    height: 70vh;
-    margin: 5rem;
-}
-
-#experience {
-    margin-top: 3rem;
-    height: 70vh;
-    margin: 5rem;
-}
-
-#contact-me {
-    margin-top: 3rem;
-    height: 70vh;
-    margin: 5rem;
-}
-
-#element {}
+/* #element {} */
