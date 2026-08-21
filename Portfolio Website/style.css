@@ -46,14 +46,11 @@ header {
 
 .heading {
     margin: 0px 0 0 100px;
+    font-size: 40px;
 }
 
 .name {
     color: #895ed2;
-}
-
-.heading {
-    font-size: 40px;
 }
 
 .socials {
@@ -67,7 +64,7 @@ header {
     background-color: #895ed2;
     border: 1px solid black;
     margin-right: 10px;
-    
+
 }
 
 .socials a,
@@ -91,7 +88,8 @@ i {
 
 }
 
-.left , .right {
+.left,
+.right {
     width: 40%;
 
 }
@@ -109,11 +107,14 @@ hr {
     margin: 40px 60px 0 60px;
 }
 
-#about, #Skills, #projects,#contact-me {
+#about,
+#Skills,
+#projects,
+#contact-me {
     margin-top: 3rem;
     height: 70vh;
     margin: 5rem;
-    
+
 }
 
 
