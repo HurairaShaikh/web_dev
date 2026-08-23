@@ -121,10 +121,10 @@ img {
 
 hr {
     border: none;
-    border-top: 8rem solid #131362;
+    border-top: 2rem solid #131362;
     text-align: center;
     height: 5px;
-    /* margin: 40px 60px 0 60px; */
+    margin: 40px 60px 0 60px;
 }
 
 #about,
