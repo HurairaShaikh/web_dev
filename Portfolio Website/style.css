@@ -2,10 +2,12 @@
     font-family: 'Montserrat';
     src: url(./assets/Montserrat.ttf);
 }
+
 @font-face {
     font-family: 'Raleway-Bold';
     src: url(./assets/Raleway-Bold.ttf);
 }
+
 @font-face {
     font-family: 'Raleway-ExtraBold';
     src: url(./assets/Raleway-Bold.ttf);
@@ -81,10 +83,11 @@ header {
     font-size: 20px;
     font-family: 'Raleway-Bold';
 }
-.name{
+
+.name {
     font-size: 55px;
     font-family: 'Raleway-Bold';
-   
+    
 }
 
 #element {
@@ -92,16 +95,18 @@ header {
     font-size: 25px;
     color: #909090;
 }
+
 .socials {
     margin-top: 50px;
     margin-right: 50px;
 }
 
 .socials button {
-    padding: 5px;
+    padding: 7px;
     width: 100px;
     background-color: #d7d7d7;
-    border: 2px solid black;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
     margin-right: 10px;
     border-radius: 11px;
     background-color: #c4c4c4;
@@ -136,7 +141,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 img {
@@ -161,7 +166,7 @@ hr {
     margin: 5rem;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -198,4 +203,3 @@ h2{
     /* margin-top: 2rem; */
     padding: 10px;
 }
-
