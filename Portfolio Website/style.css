@@ -29,6 +29,9 @@ body {
     color: #000;
 
 }
+header img{
+    height: 90px;
+}
 
 #Home {
     height: 85vh;
@@ -79,13 +82,13 @@ header {
 }
 
 .heading {
-    margin: 0px 0 0 100px;
-    font-size: 20px;
+    margin: 0px 20rem 0 0;
+    font-size: 25px;
     font-family: 'Raleway-Bold';
 }
 
 .name {
-    font-size: 55px;
+    font-size: 60px;
     font-family: 'Raleway-Bold';
     
 }
