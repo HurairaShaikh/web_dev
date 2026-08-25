@@ -170,7 +170,6 @@ hr {
 #Skills,
 #projects,
 #contact-me {
-    margin-top: 2rem;
     height: 70vh;
     margin: 5rem;
 }
@@ -187,8 +186,10 @@ hr {
     border: 2px solid #131362;
 }
 
-#about h2 {
-    font-size: 20px;
+#about h2,#Skills h2,
+#projects h2, 
+#contact-me h2 {
+    font-size: 18px;
     margin-bottom: 3rem;
     font-family: 'Montserrat-Bold';
     letter-spacing: 20%;
@@ -207,14 +208,7 @@ h2 span{
 }
 
 /* Skills Section */
-#Skills h2 {
-    font-size: 20px;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat-Bold';
-    letter-spacing: 20%;
-    text-align: center;
-     padding: 5px 15px;
-}
+
 
 #Skills p {
     font-size: 1rem;
@@ -223,17 +217,6 @@ h2 span{
 }
 
 /* Projects Section */
-#projects h2{
- font-size: 20px;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat-Bold';
-    letter-spacing: 20%;
-    text-align: center;
-}
-#contact-me h2{
- font-size: 20px;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat-Bold';
-    letter-spacing: 20%;
-    text-align: center;
-}
+
+
+/* Contact Ssction */
