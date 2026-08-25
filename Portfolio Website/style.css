@@ -183,7 +183,8 @@ hr {
     height: 250px;
     background-size: cover;
     padding: 10px;
-    border: 2px solid #131362;
+    border: 3px solid #131362;
+    margin-right: 1rem;
 }
 
 #about h2,#Skills h2,
@@ -206,14 +207,29 @@ h2 span{
     margin-top: 2rem;
     padding: 10px;
 }
+/* ul li{
+ list-style: symbols(); 
+}
+ */
 
 /* Skills Section */
 
 
 #Skills p {
     font-size: 1rem;
-    /* margin-top: 2rem; */
     padding: 10px;
+}
+#Skills h3{
+    font-family: 'Montserrat-Bold';
+    
+}
+#Skills img{
+    height: 70px;
+}
+.using{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Projects Section */
