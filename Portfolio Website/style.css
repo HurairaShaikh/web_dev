@@ -1,16 +1,20 @@
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url(./assets/Montserrat-Bold.ttf);
+    src: url(./assets/fonts/Montserrat-Bold.ttf); 
 }
 
 @font-face {
+     font-family: 'Montserrat-Regular';
+    src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
     font-family: 'Raleway-Bold';
-    src: url(./assets/Raleway-Bold.ttf);
+    src: url(./assets/fonts/Raleway-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Raleway-ExtraBold';
-    src: url(./assets/Raleway-Bold.ttf);
+    src: url(./assets/fonts/Raleway-Bold.ttf);
 }
 
 * {
@@ -243,7 +247,8 @@ h2 span {
     margin-top: 1rem;
 }
 
-.using-items,.learning-items {
+
+.using-items {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,9 +256,19 @@ h2 span {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
+    font-family: 'Montserrat-Regular';
 }
 
-
+.learning-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Montserrat-Regular';
+}
 
 /* Projects Section */
 
