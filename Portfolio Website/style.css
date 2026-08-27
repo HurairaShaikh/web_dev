@@ -228,10 +228,31 @@ h2 span{
 }
 .using{
     display: grid;
-    grid-column: auto;
-    grid-template-rows: 4;
+    grid-template-columns: repeat(4,1fr);
     flex-wrap: wrap;
     flex: 0 0 25%;
+}
+.using img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+.grid-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
 }
 
 /* Projects Section */
