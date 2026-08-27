@@ -227,9 +227,9 @@ h2 span{
     height: 70px;
 }
 .using{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 4;
     flex-wrap: wrap;
     flex: 0 0 25%;
 }
