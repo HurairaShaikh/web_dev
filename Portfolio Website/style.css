@@ -46,7 +46,7 @@ header img {
 
 #Home,
 header {
-    background-image: url("./assets/frame.png");
+    background-image: url("./assets/images/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -232,7 +232,7 @@ h2 span {
 
 #Skills h3 {
     font-family: 'Montserrat-Bold';
-
+    letter-spacing: 20%;
 }
 
 #Skills img {
