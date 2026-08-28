@@ -1,12 +1,13 @@
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url(./assets/fonts/Montserrat-Bold.ttf); 
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
-     font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular';
     src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
+
 @font-face {
     font-family: 'Raleway-Bold';
     src: url(./assets/fonts/Raleway-Bold.ttf);
@@ -220,14 +221,14 @@ h2 span {
     font-family: 'Montserrat-Regular';
 }
 
-/* ul li{
- list-style: symbols(); 
+ul li {
+    list-style: square;
 }
- */
 
- 
- /* Skills Section */
- 
+
+
+/* Skills Section */
+
 #Skills p {
     font-size: 1rem;
     padding: 10px;
@@ -242,7 +243,8 @@ h2 span {
     height: 50px;
 }
 
-.using,.learning {
+.using,
+.learning {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0px;
@@ -274,6 +276,19 @@ h2 span {
 }
 
 /* Projects Section */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10px 10px 10px ;
+    gap: 10px;
+    height: 80vh;
+    /* border: 1px solid black; */
+}
 
+.box {
+    padding: 20px 0px 15px;
+    height: 240px;
+    border: 1px solid black;
+}
 
 /* Contact Ssction */
