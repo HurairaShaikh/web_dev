@@ -296,26 +296,27 @@ ul li {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 .box-img {
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #000;
-    transition: transform 0.8s ease-out; 
+    background-color: #03030a;
+    transition: transform 0.8s ease-out;
 }
-.box-img:hover{
-    opacity: 0.9;
+
+.box-img:hover {
     cursor: pointer;
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .box {
     padding: 20px 0px 15px;
     height: 500px;
-    border: 1px solid black;
+    border: 1px solid #131362;
+    border-radius: 20px;
 }
 
 /* Contact Ssction */
