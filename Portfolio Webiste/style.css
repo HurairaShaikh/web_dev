@@ -291,6 +291,10 @@ ul li {
     /* border: 1px solid black; */
 }
 
+.box-content img{
+    height: 150px;
+}
+
 .box {
     padding: 20px 0px 15px;
     height: 240px;
