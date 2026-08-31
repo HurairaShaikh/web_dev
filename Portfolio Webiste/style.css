@@ -303,7 +303,7 @@ ul li {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 1rem;
-    /* background-color: #03030a; */
+    background-color: #a7dde1;
     transition: transform 0.8s ease-out;
 }
 
@@ -311,7 +311,7 @@ ul li {
     cursor: pointer;
     transform: scale(1.1);
 }
-/* remove all pics background and add a new background color */
+
 .box {
     padding: 20px 0px 15px;
     height: 500px;
