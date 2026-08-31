@@ -303,7 +303,7 @@ ul li {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 1rem;
-    background-color: #03030a;
+    /* background-color: #03030a; */
     transition: transform 0.8s ease-out;
 }
 
@@ -311,12 +311,13 @@ ul li {
     cursor: pointer;
     transform: scale(1.1);
 }
-
+/* remove all pics background and add a new background color */
 .box {
     padding: 20px 0px 15px;
     height: 500px;
-    border: 1px solid #131362;
+    border: 1px solid #c4c4c4;
     border-radius: 20px;
+    background-color: #c4c4c4;
 }
 
 /* Contact Ssction */
