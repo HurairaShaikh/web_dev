@@ -277,7 +277,7 @@ ul li {
 /* Projects Section */
 
 #projects {
-    height: 180vh;
+    height: 200vh;
     margin: 5rem;
     scroll-margin-top: 120px;
 }
@@ -287,7 +287,7 @@ ul li {
     grid-template-columns: repeat(3, 1fr);
     padding: 0 10px 10px 10px;
     gap: 10px;
-    height: 600px;
+    height: 800px;
 }
 
 
@@ -313,7 +313,7 @@ ul li {
 
 .box {
     padding: 20px 0px 15px;
-    height: 500px;
+    height: 550px;
     border: 1px solid #c4c4c4;
     border-radius: 20px;
     background-color: #c4c4c4;
@@ -328,6 +328,12 @@ ul li {
     margin-top: 10px;
     padding: 8px;
     border-radius: 16px;
+}
+
+.pro-title{
+    margin-top: 20px;
+    font-family: "Raleway-Bold";
+    font-size: 1.5rem;
 }
 
 /* Contact Ssction */
