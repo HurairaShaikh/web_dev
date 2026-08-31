@@ -288,7 +288,6 @@ ul li {
     padding: 0 10px 10px 10px;
     gap: 10px;
     height: 600px;
-    /* border: 1px solid black; */
 }
 
 
@@ -303,7 +302,7 @@ ul li {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 1rem;
-    background-color: #a7dde1;
+    background-color: #ded9d3;
     transition: transform 0.8s ease-out;
 }
 
