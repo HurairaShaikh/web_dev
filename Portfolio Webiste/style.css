@@ -7,6 +7,10 @@
     font-family: 'Montserrat-Regular';
     src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(./assets/fonts/Raleway-Regular.ttf);
+}
 
 @font-face {
     font-family: 'Raleway-Bold';
@@ -346,3 +350,18 @@ ul li {
 }
 
 /* Contact Ssction */
+.contact-body{
+    margin: 20px;
+}
+.contact-body h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold";
+    margin-bottom: 20px;
+}
+.contact-body p{
+    /* margin-left:50px ;
+    margin-right:50px ; */
+    font-size: 15px;
+    font-family: "Raleway-Regular";
+    /* text-align: center; */
+ }
