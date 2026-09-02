@@ -335,5 +335,9 @@ ul li {
     font-family: "Raleway-Bold";
     font-size: 1.5rem;
 }
+.ui .box-img{
+    display: flex;
+  height: 90px; 
+}
 
 /* Contact Ssction */
