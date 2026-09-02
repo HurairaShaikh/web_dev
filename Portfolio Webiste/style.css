@@ -339,5 +339,10 @@ ul li {
     display: flex;
   height: 90px; 
 }
+.description{
+    margin-top: 10px;
+    font-size: 0.75rem;
+    font-family: "Montserrat-Regular";
+}
 
 /* Contact Ssction */
