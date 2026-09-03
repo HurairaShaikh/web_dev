@@ -180,8 +180,7 @@ hr {
 
 /* Body Section */
 #about,
-#Skills,
-#contact-me {
+#Skills {
     height: 90vh;
     margin: 5rem;
     scroll-margin-top: 120px;
@@ -350,6 +349,13 @@ ul li {
 }
 
 /* Contact Ssction */
+
+#contact-me {
+    height: 110vh;
+    margin: 5rem;
+    scroll-margin-top: 120px;
+}
+
 .contact-body{
     margin: 20px;
 }
@@ -376,9 +382,39 @@ ul li {
 input{
     height: 45px;
     width: 600px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border: none;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
     background-color: transparent;
+    outline: none;
+}
+
+
+input::placeholder,textarea::placeholder{
+    font-size: 0.8rem;
+    padding-left: 20px;
+    font-family: "Montserrat-Bold";
+    padding-top: 20px;
+}
+
+textarea{
+    height: 150px;
+    width: 600px;
+    border: none;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+input[type="submit"]{
+    margin-top: 50px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+
 }
