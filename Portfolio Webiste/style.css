@@ -308,11 +308,13 @@ ul li {
     margin-bottom: 1rem;
     background-color: #ded9d3;
     transition: transform 0.8s ease-out;
+    border-radius: 20px;
 }
 
 .box-img:hover {
     cursor: pointer;
     transform: scale(1.1);
+
 }
 
 .box {
@@ -387,7 +389,7 @@ ul li {
 
 input {
     height: 45px;
-    width: 600px;
+    width: 450px;
     margin-bottom: 50px;
     border: none;
     border-left: 4px solid black;
@@ -398,13 +400,14 @@ input {
     font-size: 0.8rem;
     font-family: "Montserrat-Bold";
 }
-input[type="number"]::-webkit-inner-spin-button{
+
+input[type="number"]::-webkit-inner-spin-button {
     appearance: none;
 }
 
 textarea {
     height: 150px;
-    width: 600px;
+    width: 450px;
     border: none;
     border-left: 4px solid black;
     border-bottom: 4px solid black;
@@ -418,10 +421,11 @@ textarea {
 
 input[type="submit"] {
     margin-top: 50px;
-    width: 180px;
+    width: 160px;
     height: 40px;
     border: none;
     border-left: 4px solid black;
     border-right: 4px solid black;
     font-size: 16px;
+    text-align: center;
 }
