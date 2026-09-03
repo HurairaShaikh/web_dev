@@ -399,7 +399,7 @@ input {
     font-family: "Montserrat-Bold";
 }
 input[type="number"]::-webkit-inner-spin-button{
-    -webkit-appearance: none;
+    appearance: none;
 }
 
 textarea {
