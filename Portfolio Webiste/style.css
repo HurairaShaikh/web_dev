@@ -388,14 +388,15 @@ input{
     border-bottom: 4px solid black;
     background-color: transparent;
     outline: none;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    font-family: "Montserrat-Bold";
 }
-
 
 input::placeholder,textarea::placeholder{
     font-size: 0.8rem;
-    padding-left: 20px;
+    padding-left: 10px;
     font-family: "Montserrat-Bold";
-    padding-top: 20px;
 }
 
 textarea{
@@ -407,6 +408,7 @@ textarea{
     background-color: transparent;
     resize: none;
     outline: none;
+    padding-left: 20px;
 }
 
 input[type="submit"]{
@@ -416,5 +418,6 @@ input[type="submit"]{
     border: none;
     border-left: 4px solid black;
     border-right: 4px solid black;
+    font-size: 16px;
 
 }
