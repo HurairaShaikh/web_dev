@@ -444,10 +444,19 @@ footer {
 footer p {
     font-size: 10px;
 }
-.rights{
+
+.rights {
     margin-top: 20px;
+    font-weight: normal;
+    font-family: "Montserrat-Regular";
 }
-.back{
+
+.rights span {
+    font-family: "Montserrat-Bold";
+    font-size: 0.8rem;
+}
+
+.back {
     text-decoration: none;
     color: #fff;
 }
