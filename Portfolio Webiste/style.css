@@ -328,6 +328,11 @@ ul li {
     font-family: "Montserrat-Bold";
 }
 
+#view-project i{
+    color: #fff;
+}
+
+
 .box {
     padding: 20px 0px 15px;
     height: 580px;
