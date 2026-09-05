@@ -403,6 +403,13 @@ ul li {
     margin-top: 30px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 input {
     height: 45px;
     width: 450px;
@@ -435,7 +442,7 @@ textarea {
     font-family: "Montserrat-Bold";
 }
 
-input[type="submit"] {
+button[type="submit"] {
     margin-top: 50px;
     width: 160px;
     height: 40px;
@@ -445,6 +452,8 @@ input[type="submit"] {
     font-size: 16px;
     padding: 0;
     margin-bottom: 20px;
+    background-color: transparent;
+    font-family: "Montserrat-Bold";
 }
 
 footer {
