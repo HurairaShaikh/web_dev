@@ -456,12 +456,11 @@ footer p {
     font-size: 0.8rem;
 }
 
-.back a, .footer-links a{
+.back a,
+.footer-links a,.footer-links i {
     text-decoration: none;
-    color: #fff;
-}
-.footer-links i{
     font-size: 1.3rem;
+    color: #fff;
 }
 
 footer i {
