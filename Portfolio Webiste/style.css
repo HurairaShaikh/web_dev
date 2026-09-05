@@ -437,4 +437,9 @@ footer{
     color: #fff;
     /* padding:2rem 0 0 5rem; */
     text-align: center;
+
 }
+footer i{
+ color: #fff;
+}
+/* footer and contact heading and form of contact */
