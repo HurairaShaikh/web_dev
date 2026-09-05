@@ -444,6 +444,13 @@ footer {
 footer p {
     font-size: 10px;
 }
+.rights{
+    margin-top: 20px;
+}
+.back{
+    text-decoration: none;
+    color: #fff;
+}
 
 footer i {
     margin-top: 20px;
