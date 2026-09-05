@@ -456,7 +456,7 @@ footer p {
     font-size: 0.8rem;
 }
 
-.back {
+.back a, .footer-links a{
     text-decoration: none;
     color: #fff;
 }
