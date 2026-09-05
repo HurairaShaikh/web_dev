@@ -494,3 +494,27 @@ footer i {
 }
 
 /* footer and contact heading and form of contact */
+
+#toast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background: #222;
+    color: white;
+
+    padding: 15px 25px;
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s;
+}
+
+#toast.show {
+    opacity: 1;
+    visibility: visible;
+}
