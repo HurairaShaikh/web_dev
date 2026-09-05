@@ -432,14 +432,17 @@ input[type="submit"] {
 }
 
 footer{
-    height: 120px;
+    height: 150px;
     background-color: #131362;
     color: #fff;
     /* padding:2rem 0 0 5rem; */
     text-align: center;
+    font-size: 10px;
+    font-family: "Montserrat-Bold";
 
 }
 footer i{
+    margin-top: 20px;
  color: #fff;
 }
 /* footer and contact heading and form of contact */
