@@ -431,18 +431,23 @@ input[type="submit"] {
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     height: 150px;
     background-color: #131362;
     color: #fff;
     /* padding:2rem 0 0 5rem; */
     text-align: center;
-    font-size: 10px;
     font-family: "Montserrat-Bold";
 
 }
-footer i{
-    margin-top: 20px;
- color: #fff;
+
+footer p {
+    font-size: 10px;
 }
+
+footer i {
+    margin-top: 20px;
+    color: #fff;
+}
+
 /* footer and contact heading and form of contact */
