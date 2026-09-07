@@ -317,7 +317,7 @@ ul li {
 
 }
 
-.box-content button{
+.box-content button {
     margin-top: 10px;
     width: 100%;
     height: 40px;
@@ -328,7 +328,7 @@ ul li {
     font-family: "Montserrat-Bold";
 }
 
-#view-project i{
+#view-project i {
     color: #fff;
 }
 
@@ -403,7 +403,7 @@ ul li {
     margin-top: 30px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,7 +482,8 @@ footer p {
 }
 
 .back a,
-.footer-links a,.footer-links i {
+.footer-links a,
+.footer-links i {
     text-decoration: none;
     font-size: 1.3rem;
     color: #fff;
@@ -492,8 +493,6 @@ footer i {
     margin-top: 20px;
     color: #fff;
 }
-
-/* footer and contact heading and form of contact */
 
 #toast {
     position: fixed;
