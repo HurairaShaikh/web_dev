@@ -36,12 +36,11 @@ html {
 body {
     background-color: #d7d7d7;
     color: #000;
-
 }
 
 /* Logo */
 header img {
-    height: 90px;
+    height: 140%;
 }
 
 /* HomePage */
