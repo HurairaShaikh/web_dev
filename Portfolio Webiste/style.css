@@ -40,7 +40,7 @@ body {
 
 /* Logo */
 header img {
-    height: 140%;
+    height: 90px;
 }
 
 /* HomePage */
@@ -519,8 +519,14 @@ footer i {
 }
 
 
-@media all and (max-width:500px) {
-    #Home{
-        width:100px;
-    }
-}
+ /* @media screen and (min-width:768px) and (max-width:1199px) {
+   header .nav-bar{
+    padding-left: 15rem;
+   }
+   header img{
+    height: 120px;
+   }
+   #Home{
+    height: 95vh;
+   }
+} */
