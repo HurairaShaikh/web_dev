@@ -46,8 +46,7 @@ header img {
 /* HomePage */
 
 #Home {
-    min-height: 85vh;
-    height: auto;
+    height: 85vh;
     scroll-margin-top: 120px;
 }
 
@@ -69,21 +68,23 @@ header {
     z-index: 1000;
     padding: 1rem;
     height: 6rem;
+
 }
 
 /* NavBAr */
 .nav-bar {
-    margin-left: clamp(2rem, 5vw, 10rem);
+    margin-left: 10rem;
 }
 
 .nav-bar a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-     width: clamp(110px, 10vw, 147px);
+    width: 147px;
     height: 46px;
     padding: 0.9rem;
     font-family: 'Montserrat-Bold';
+
 }
 
 .nav-bar a:hover {
@@ -95,24 +96,23 @@ header {
 }
 
 /* Heading */
-
 .heading {
-    margin: 0 22vw 0 0;
-    font-size: clamp(18px, 1.8vw, 25px);
+    margin: 0px 20rem 0 0;
+    font-size: 25px;
     font-family: 'Raleway-Bold';
 }
 
 .name {
-    font-size: clamp(40px, 4.2vw, 60px);
+    font-size: 60px;
     font-family: 'Raleway-Bold';
+
 }
 
 #element {
     font-family: 'Raleway-ExtraBold';
-    font-size: clamp(18px, 1.8vw, 25px);
+    font-size: 25px;
     color: #909090;
 }
-
 
 /* Social Buttons */
 .socials {
