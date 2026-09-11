@@ -517,3 +517,10 @@ footer i {
     opacity: 1;
     visibility: visible;
 }
+
+
+@media all and (max-width:500px) {
+    #Home{
+        width:100px;
+    }
+}
