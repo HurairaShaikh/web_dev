@@ -288,7 +288,7 @@ ul li {
 .boxes {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     padding: 0 10px 10px 10px;
     gap: 10px;
     max-height: 800px;
@@ -314,7 +314,6 @@ ul li {
 .box-img:hover {
     cursor: pointer;
     transform: scale(1.1);
-
 }
 
 .box-content button {
@@ -339,6 +338,7 @@ ul li {
     border: 1px solid #c4c4c4;
     border-radius: 20px;
     background-color: #c4c4c4;
+    text-align: center;
 }
 
 .tech span {
@@ -543,11 +543,11 @@ footer i {
     }
 
     .boxes {
-      
+      justify-content: center;
     }
 
     #projects {
-        height: 400vh;
+        min-height: 390vh;
     }
      #contact-me {
         max-height: 90vh;
