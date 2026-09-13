@@ -291,7 +291,7 @@ ul li {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     padding: 0 10px 10px 10px;
     gap: 10px;
-    height: 800px;
+    max-height: 800px;
 }
 
 
@@ -542,9 +542,9 @@ footer i {
         overflow-x: hidden;
     }
 
-    /* .box {
-        min-width: 35vm;
-    } */
+    .boxes {
+      
+    }
 
     #projects {
         height: 400vh;
