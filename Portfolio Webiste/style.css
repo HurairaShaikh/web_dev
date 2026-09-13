@@ -288,7 +288,7 @@ ul li {
 .boxes {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     padding: 0 10px 10px 10px;
     gap: 10px;
     max-height: 800px;
@@ -536,20 +536,35 @@ footer i {
 
 /* Mobile Screens */
 @media screen and (max-width:766px) and (min-width:300px) {
-      html,
+
+    html,
     body {
         width: 100%;
         overflow-x: hidden;
     }
-
-    .boxes {
-      justify-content: center;
+    #
+    #Skills {
+        height: 110vh;
+        margin: 3rem 1rem;
+        align-items: center;
     }
-
+    #Skills img{
+        height: 70px;
+    }
+    .using,.learning{
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        justify-content: center;
+    }
+    
     #projects {
         min-height: 390vh;
     }
-     #contact-me {
+
+    .boxes {
+        justify-content: center;
+    }
+
+    #contact-me {
         max-height: 90vh;
         margin: 3rem 1rem;
         align-items: center;
@@ -564,7 +579,7 @@ footer i {
     #contact-me textarea {
         width: 100%;
     }
-   
+
 
 
 }
