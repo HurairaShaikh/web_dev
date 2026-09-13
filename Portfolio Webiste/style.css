@@ -530,3 +530,10 @@ footer i {
     height: 95vh;
    }
 }
+
+/* Mobile Screens */
+@media screen and (max-width:766px) and (min-width:300px) {
+    body{
+        background-color: #000;
+    }
+}
