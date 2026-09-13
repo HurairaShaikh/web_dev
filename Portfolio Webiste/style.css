@@ -288,7 +288,7 @@ ul li {
 .boxes {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     padding: 0 10px 10px 10px;
     gap: 10px;
     height: 800px;
@@ -456,6 +456,7 @@ button[type="submit"] {
     font-family: "Montserrat-Bold";
 }
 
+/* footer */
 footer {
     height: 150px;
     background-color: #131362;
@@ -463,8 +464,8 @@ footer {
     /* padding:2rem 0 0 5rem; */
     text-align: center;
     font-family: "Montserrat-Bold";
-
 }
+
 
 footer p {
     font-size: 10px;
@@ -519,29 +520,51 @@ footer i {
 }
 
 /* Tab Screens */
- @media screen and (min-width:768px) and (max-width:1024px) {
-   header .nav-bar{
-    padding-left: 15rem;
-   }
-   header img{
-    height: 120px;
-   }
-   #Home{
-    height: 95vh;
-   }
+@media screen and (min-width:768px) and (max-width:1024px) {
+    header .nav-bar {
+        padding-left: 15rem;
+    }
+
+    header img {
+        height: 120px;
+    }
+
+    #Home {
+        height: 95vh;
+    }
 }
 
 /* Mobile Screens */
 @media screen and (max-width:766px) and (min-width:300px) {
-    /* #Home{
-        background-color: #000;
+      html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* .box {
+        min-width: 35vm;
     } */
-     .boxes{
-        /* display: grid;
-        grid-template-columns: repeat(); */
-     }
-     #projects{
+
+    #projects {
         height: 400vh;
-     }
+    }
+     #contact-me {
+        max-height: 90vh;
+        margin: 3rem 1rem;
+        align-items: center;
+    }
+
+    #contact-me form {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #contact-me input,
+    #contact-me textarea {
+        width: 100%;
+    }
+   
+
 
 }
