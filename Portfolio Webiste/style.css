@@ -287,8 +287,8 @@ ul li {
 
 .boxes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: repeat(auto-fit,minmax(350px, 1fr)); */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
     padding: 0 10px 10px 10px;
     gap: 10px;
     height: 800px;
@@ -533,7 +533,15 @@ footer i {
 
 /* Mobile Screens */
 @media screen and (max-width:766px) and (min-width:300px) {
-    body{
+    /* #Home{
         background-color: #000;
-    }
+    } */
+     .boxes{
+        /* display: grid;
+        grid-template-columns: repeat(); */
+     }
+     #projects{
+        height: 400vh;
+     }
+
 }
