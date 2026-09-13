@@ -542,21 +542,44 @@ footer i {
         width: 100%;
         overflow-x: hidden;
     }
-    #
+
+    #about {
+        height: auto;
+        min-height: 0;
+        margin: 3rem 1rem;
+    }
+
+    #about img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+
     #Skills {
-        height: 110vh;
+        height: auto;
+        min-height:0;
         margin: 3rem 1rem;
         align-items: center;
     }
-    #Skills img{
-        height: 70px;
+
+    #Skills img {
+        min-height: 70px;
     }
-    .using,.learning{
-        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+
+    .using,
+    .learning {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         justify-content: center;
     }
-    
+
     #projects {
+        height: auto;
         min-height: 390vh;
     }
 
@@ -565,7 +588,8 @@ footer i {
     }
 
     #contact-me {
-        max-height: 90vh;
+        height: auto;
+        min-height: 0;
         margin: 3rem 1rem;
         align-items: center;
     }
