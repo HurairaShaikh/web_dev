@@ -36,13 +36,11 @@ form.addEventListener("submit", async function (e) {
 });
 
 
-const navbar = document.getElementById("mob-nav");
+const menuBtn = document.getElementById("menu-btn");
+const dropdown = document.getElementById("dropdown");
 
-navbar.addEventListener("change", function () {
+menuBtn.addEventListener("click", () => {
 
-    if (this.value !== "icon") {
-        window.location.href = this.value;
-        this.value = "icon";
-    }
+    dropdown.classList.toggle("active");
 
 });

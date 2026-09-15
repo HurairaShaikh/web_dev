@@ -39,9 +39,10 @@ body {
 }
 
 /* Mobile NavBar */
-#mob-nav{
+#mob-nav {
     display: none;
 }
+
 /* Logo */
 header img {
     height: 90px;
@@ -522,6 +523,11 @@ footer i {
     visibility: visible;
 }
 
+.mobile-menu {
+    display: none;
+}
+
+
 /* Tab Screens */
 @media screen and (min-width:768px) and (max-width:1024px) {
     header .nav-bar {
@@ -549,7 +555,7 @@ footer i {
     header,
     #Home {
         background-image: none;
-        background-color: #131362;
+        background-color: #fff;
     }
 
     header {
@@ -566,21 +572,6 @@ footer i {
         width: 100px;
         height: auto;
     }
-    
-    #mob-nav {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 100px;
-    height: 40px;
-    background-color: #131362;
-    color: white;
-    border: 1px solid white;
-    border-radius: 8px;
-    /* font-size: 20px; */
-    font-family: "Montserrat-Bold";
-   }
 
     header .nav-bar {
         display: none;
@@ -673,6 +664,49 @@ footer i {
         width: 100%;
     }
 
+    /* DropDown Menu of NavBar */
+    .mobile-menu {
+        display: block;
+        margin-left: auto;
+        position: relative;
+    }
 
+    #menu-btn {
+        background: transparent;
+        border: none;
+        color: #131362;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    #menu-btn i{
+        font-size: 2rem;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        width: 200px;
+        background-color: #131362;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        z-index: 2000;
+    }
+
+    .dropdown.active {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+        font-family: "Montserrat-Bold";
+        font-size: 16px;
+        padding: 12px;
+    }
 
 }
