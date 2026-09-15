@@ -543,18 +543,34 @@ footer i {
     }
 
     header {
+        display: flex;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 70px;
+        padding: 5px 15px;
+        background-image: none;
+        background-color: #131362;
+        border: none;
+        box-shadow: none;
+    }
+
+    header img {
+        display: block;
+        width: 70px;
+        height: auto;
+    }
+
+    header .nav-bar {
         display: none;
+
     }
 
     #Home {
         background-image: none;
-        /* background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center; */
-        background-color: #000;
+        background-color: #131362;
         max-height: auto;
-        min-height: 100vh;
+        min-height: 93vh;
     }
 
     .left {
@@ -569,14 +585,15 @@ footer i {
 
     .right img {
         height: auto;
-        min-height: 650px;
+        min-height: 600px;
         margin-bottom: 6rem;
         background-size: cover;
     }
 
+    /* 
     .mobile-logo {
-        display: none;
-    }
+        
+    } */
 
 
     #about {
