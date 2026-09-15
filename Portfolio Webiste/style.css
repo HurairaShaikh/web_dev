@@ -602,6 +602,10 @@ footer i {
         max-width: 450px;
     }
 
+    #contact-me input,
+    #contact-me textarea {
+        width: 100%;
+    }
 
 
 
