@@ -34,3 +34,15 @@ form.addEventListener("submit", async function (e) {
             "Something went wrong. Please try again.";
     }
 });
+
+
+const navbar = document.getElementById("mob-nav");
+
+navbar.addEventListener("change", function () {
+
+    if (this.value !== "icon") {
+        window.location.href = this.value;
+        this.value = "icon";
+    }
+
+});

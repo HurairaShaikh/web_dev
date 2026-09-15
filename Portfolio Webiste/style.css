@@ -38,6 +38,10 @@ body {
     color: #000;
 }
 
+/* Mobile NavBar */
+#mob-nav{
+    display: none;
+}
 /* Logo */
 header img {
     height: 90px;
@@ -542,33 +546,47 @@ footer i {
         overflow-x: hidden;
     }
 
+    header,
+    #Home {
+        background-image: none;
+        background-color: #131362;
+    }
+
     header {
-        display: flex;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         height: 70px;
         padding: 5px 15px;
-        background-image: none;
-        background-color: #131362;
-        border: none;
-        box-shadow: none;
+        margin-bottom: -1px;
     }
 
     header img {
         display: block;
-        width: 70px;
+        width: 100px;
         height: auto;
     }
+    
+    #mob-nav {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #131362;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    /* font-size: 20px; */
+    font-family: "Montserrat-Bold";
+   }
 
     header .nav-bar {
         display: none;
-
     }
 
     #Home {
-        background-image: none;
-        background-color: #131362;
         max-height: auto;
         min-height: 93vh;
     }
@@ -590,16 +608,11 @@ footer i {
         background-size: cover;
     }
 
-    /* 
-    .mobile-logo {
-        
-    } */
-
-
     #about {
         height: auto;
         min-height: 0;
         margin: 3rem 1rem;
+        scroll-margin-top: 40px;
     }
 
     #about img {
