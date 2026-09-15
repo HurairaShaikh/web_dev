@@ -543,6 +543,10 @@ footer i {
         overflow-x: hidden;
     }
 
+    #Home{
+        
+    }
+
     #about {
         height: auto;
         min-height: 0;
