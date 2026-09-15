@@ -555,7 +555,7 @@ footer i {
     header,
     #Home {
         background-image: none;
-        background-color: #fff;
+        background-color: #131362;
     }
 
     header {
@@ -678,8 +678,10 @@ footer i {
         font-size: 25px;
         cursor: pointer;
     }
+    
     #menu-btn i{
         font-size: 2rem;
+        color: white;
     }
 
     .dropdown {
