@@ -527,6 +527,10 @@ footer i {
     display: none;
 }
 
+#mob-img{
+    display: none;
+}
+
 
 /* Tab Screens */
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -566,8 +570,10 @@ footer i {
         padding: 5px 15px;
         margin-bottom: -1px;
     }
-
-    header img {
+    #web-img{
+        display: none;
+    }
+    header #mob-img {
         display: block;
         width: 100px;
         height: auto;
