@@ -574,6 +574,7 @@ footer i {
         height: 70px;
         padding: 5px 15px;
         margin-bottom: -1px;
+        height: 6rem;
     }
 
     #web-img {
@@ -591,61 +592,33 @@ footer i {
     }
 
     #Home {
-        max-height: auto;
-        min-height: 93vh;
+        height: auto;
+        min-height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: end;
-        background-image: url(./assets/images/me.png);
+        justify-content: center;
+        background-image: url(./assets/images/mob-me.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: auto 750px;
+        background-size: auto 850px;
         background-attachment: local;
     }
 
     .container {
-        display: block;
+        margin-top: 550px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
         height: 300px;
-        background-color: brown;  
+        background-color: transparent;  
     }
 
-    /* .right-mob {
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        
-    /* }
-   .image{
-    background-image: url(./assets/images/me.png);
-    background-position: center;
-   } */
-
-    /* .right-mob img {
-        height: auto;
-        min-height: 600px;
-        /* margin-bottom: 6rem; */
-        /* object-fit: cover; */
-    /* }  */
- 
     .left,
     .right {
         display: none;
     }
-
-    /* .right {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .right img {
-        height: auto;
-        min-height: 600px;
-        /* margin-bottom: 6rem; */
-    /* background-size: cover; */
-    /* } */
-
+    
     #about {
         height: auto;
         min-height: 0;
