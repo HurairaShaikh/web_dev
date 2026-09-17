@@ -596,31 +596,38 @@ footer i {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
+        background-image: url(./assets/images/me.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 750px;
+        background-attachment: local;
     }
 
     .container {
         display: block;
-        /* background-image: url(./assets/images/me.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain; */
         height: 300px;
+        background-color: brown;  
     }
 
-    .right-mob {
-        display: flex;
+    /* .right-mob {
+        /* display: flex;
         align-items: center;
-        justify-content: center;
-    }
+        justify-content: center; */
+        
+    /* }
+   .image{
+    background-image: url(./assets/images/me.png);
+    background-position: center;
+   } */
 
-    .right-mob img {
+    /* .right-mob img {
         height: auto;
         min-height: 600px;
         /* margin-bottom: 6rem; */
-        object-fit: cover;
-    }
-
+        /* object-fit: cover; */
+    /* }  */
+ 
     .left,
     .right {
         display: none;
