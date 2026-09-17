@@ -112,7 +112,8 @@ header {
 
 }
 
-#element {
+#element1,
+#element2 {
     font-family: 'Raleway-ExtraBold';
     font-size: 25px;
     color: #909090;
@@ -527,10 +528,14 @@ footer i {
     display: none;
 }
 
-#mob-img{
+#mob-img {
     display: none;
 }
 
+.container,
+.right-mob {
+    display: none;
+}
 
 /* Tab Screens */
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -570,9 +575,11 @@ footer i {
         padding: 5px 15px;
         margin-bottom: -1px;
     }
-    #web-img{
+
+    #web-img {
         display: none;
     }
+
     header #mob-img {
         display: block;
         width: 100px;
@@ -586,13 +593,40 @@ footer i {
     #Home {
         max-height: auto;
         min-height: 93vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .left {
+    .container {
+        display: block;
+        /* background-image: url(./assets/images/me.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; */
+        height: 300px;
+    }
+
+    .right-mob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-mob img {
+        height: auto;
+        min-height: 600px;
+        /* margin-bottom: 6rem; */
+        object-fit: cover;
+    }
+
+    .left,
+    .right {
         display: none;
     }
 
-    .right {
+    /* .right {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -601,9 +635,9 @@ footer i {
     .right img {
         height: auto;
         min-height: 600px;
-        margin-bottom: 6rem;
-        background-size: cover;
-    }
+        /* margin-bottom: 6rem; */
+    /* background-size: cover; */
+    /* } */
 
     #about {
         height: auto;
@@ -684,8 +718,8 @@ footer i {
         font-size: 25px;
         cursor: pointer;
     }
-    
-    #menu-btn i{
+
+    #menu-btn i {
         font-size: 2rem;
         color: white;
     }

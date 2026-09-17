@@ -1,6 +1,12 @@
-let element = document.getElementById("element");
+let element1 = document.getElementById("element1");
+let element2 = document.getElementById("element2");
 
-var typed = new Typed(element, {
+var typed = new Typed(element1, {
+    strings: ['Software Engineer', 'FrontEnd Developer', 'Web Developer', 'Mobile App Developer'],
+    typeSpeed: 50,
+    loop: true
+});
+var typed = new Typed(element2, {
     strings: ['Software Engineer', 'FrontEnd Developer', 'Web Developer', 'Mobile App Developer'],
     typeSpeed: 50,
     loop: true
