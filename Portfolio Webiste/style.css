@@ -611,11 +611,12 @@ footer i {
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        min-width: auto;
         height: auto;
         min-height: 200px;
-        background-color: rgba(117, 125, 137, 0.85);
-        ;
-    }
+        background-color: rgba(94, 110, 135, 0.85);
+        }
+
 
     .heading {
         display: inline;
