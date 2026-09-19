@@ -88,7 +88,6 @@ header {
     height: 46px;
     padding: 0.9rem;
     font-family: 'Montserrat-Bold';
-
 }
 
 .nav-bar a:hover {
@@ -109,7 +108,6 @@ header {
 .name {
     font-size: 60px;
     font-family: 'Raleway-Bold';
-
 }
 
 #element1,
@@ -628,7 +626,7 @@ footer i {
 
         background: rgba(94, 110, 135, 0.85);
 
-        clip-path: polygon(0 22%,
+        clip-path: polygon(0 30%,
                 100% 0,
                 100% 100%,
                 0 100%);
@@ -642,16 +640,15 @@ footer i {
     }
 
 
-    .heading {
-        display: inline;
+    .mob-heading {
         margin-left: 5px;
         font-size: 20px;
         font-family: 'Raleway-Bold';
         color: #fff;
-        padding-top: 50px;
+        line-height: 1;
     }
 
-    .name {
+    .mob-name {
         font-size: 40px;
         font-family: 'Raleway-Bold';
         color: white;
@@ -661,18 +658,23 @@ footer i {
         font-size: 2.5rem;
         margin-bottom: 25px;
         color: white;
+        text-align: center;
     }
 
     .socials {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .right-mob {
-        display: flex;
-        flex-direction: column;
-        /* margin-bottom: 60px; */
-    }
+/* center socials btn and have to do much more?? */
+    /* .right-mob {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        align-items: center;
+        margin-bottom:5px;
+    } */
 
     #element2 {
         font-size: 22px;
@@ -680,7 +682,7 @@ footer i {
     }
 
     .left-mob {
-        margin-top: 40px;
+        margin-top: 6rem;
         margin-left: 30px;
     }
 
