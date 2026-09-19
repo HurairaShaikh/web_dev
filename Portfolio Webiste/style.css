@@ -601,9 +601,8 @@ footer i {
         justify-content: end;
         background-image: url(./assets/images/mob-me.png);
         background-repeat: no-repeat;
-        background-position: center calc(100% - 60px);
+        background-position: center calc(100% - 90px);
         background-size: auto 100%;
-        /* background-size: auto 70vh; */
         background-attachment: local;
     }
 
@@ -613,38 +612,48 @@ footer i {
         justify-content: space-around;
         width: 100%;
         height: auto;
-        min-height: 250px;
-        background-color: #dadaf5;
+        min-height: 200px;
+        background-color: rgba(117, 125, 137, 0.85);
+        ;
     }
 
     .heading {
-        margin: 0px 20rem 0 0;
+        display: inline;
+        margin-left: 5px;
         font-size: 20px;
         font-family: 'Raleway-Bold';
+        color: #fff;
     }
 
     .name {
-        font-size: 35px;
+        font-size: 40px;
         font-family: 'Raleway-Bold';
-
+        color: white;
     }
 
-    .socials i{
+    .socials i {
         font-size: 2.5rem;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        color: white;
     }
 
     .socials {
+        justify-content: center;
+        align-items: center;
     }
 
-    .right-mob{
+    .right-mob {
         display: flex;
         flex-direction: column;
-        margin-bottom: 90px;
+        margin-bottom: 60px;
     }
 
+    #element2 {
+        font-size: 22px;
+        color: rgb(245, 237, 237);
+    }
 
-    .left-mob{
+    .left-mob {
         margin-left: 20px;
     }
 
