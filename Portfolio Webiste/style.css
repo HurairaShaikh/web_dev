@@ -617,6 +617,25 @@ footer i {
         background-color: #dadaf5;
     }
 
+    .heading {
+        margin: 0px 20rem 0 0;
+        font-size: 20px;
+        font-family: 'Raleway-Bold';
+    }
+
+    .name {
+        font-size: 30px;
+        font-family: 'Raleway-Bold';
+
+    }
+
+    .socials {
+        /* display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center; */
+    }
+
     .left,
     .right {
         display: none;
