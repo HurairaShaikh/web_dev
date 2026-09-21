@@ -670,16 +670,9 @@ footer i {
         justify-content: center;
         align-items: center;
        /* padding-left: 3rem; */
-       background-color: blue;
+       /* background-color: ; */
     }
 /* center socials btn and have to do much more?? */
-    .right-mob {
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-        align-items: center;
-        margin-bottom:5px;
-    }
 
     #element2 {
         font-size: 22px;
