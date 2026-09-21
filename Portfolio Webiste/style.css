@@ -648,6 +648,7 @@ footer i {
         line-height: 1;
     }
     .mob-names{
+        background-color: plum;
     }
     .mob-name {
         width: 100%;
@@ -667,10 +668,10 @@ footer i {
     .socials {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         margin-left: 40px;
-        background-color: palegreen;
+        /* background-color: palegreen; */
     }
 /* center socials btn and have to do much more?? */
 
@@ -681,8 +682,9 @@ footer i {
     }
 
     .left-mob {
+        flex-shrink: 0;
         margin-top: 5rem;
-        margin-left: 30px;
+        margin-left: 60px;
     }
 
     .left,
