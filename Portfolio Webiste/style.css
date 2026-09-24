@@ -650,8 +650,12 @@ footer i {
         font-family: 'Raleway-Bold';
         color: #fff;
         line-height: 1;
+        margin-left: 12px;
     }
-   
+   .mob-names{
+      margin-left: 10px;
+
+   }
     .mob-name {
         width: 100%;
         flex-shrink: 0;
@@ -672,7 +676,7 @@ footer i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 /* center socials btn and have to do much more?? */
 
