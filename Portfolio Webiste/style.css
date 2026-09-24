@@ -85,8 +85,10 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    width: 147px;
-    height: 46px;
+    width: auto;
+    min-width: 147px;
+    height: auto;
+    min-width: 46px;
     padding: 0.9rem;
     font-family: 'Montserrat-Bold';
 }
@@ -126,7 +128,8 @@ header {
 
 .socials button {
     padding: 7px;
-    width: 100px;
+    width: auto;
+    min-width: 100px;
     background-color: #d7d7d7;
     border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%);
@@ -155,13 +158,13 @@ i {
 
 .left,
 .right {
-    width: 40%;
-
+    width: auto;
+    min-width: 40%;
 }
 
 .left {
-    height: 20rem;
-    /* background-color: red; */
+    height: auto;
+    min-height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,11 +188,11 @@ hr {
 /* Body Section */
 #about,
 #Skills {
-    height: 90vh;
+    height: auto;
+    min-height: 0;
     margin: 5rem;
     scroll-margin-top: 120px;
 }
-
 
 
 /* About */
@@ -230,7 +233,6 @@ h2 span {
 ul li {
     list-style: square;
 }
-
 
 
 /* Skills Section */
@@ -284,7 +286,8 @@ ul li {
 /* Projects Section */
 
 #projects {
-    height: 210vh;
+    height: auto;
+    min-height: 0;
     margin: 5rem;
     scroll-margin-top: 120px;
 }
@@ -376,7 +379,8 @@ ul li {
 /* Contact Ssction */
 
 #contact-me {
-    height: 120vh;
+    height: auto;
+    min-height: 0;
     margin: 5rem;
     scroll-margin-top: 120px;
 }
@@ -536,6 +540,7 @@ footer i {
     display: none;
 }
 
+
 /* Tab Screens */
 @media screen and (min-width:768px) and (max-width:1024px) {
     header .nav-bar {
@@ -643,6 +648,7 @@ footer i {
         z-index: 1;
     }
 
+    /* Heading and socials button for mobile */
 
     .mob-heading {
         margin-left: 5px;
@@ -650,13 +656,7 @@ footer i {
         font-family: 'Raleway-Bold';
         color: #fff;
         line-height: 1;
-        /* margin-left: 12px; */
     }
-
-    /* .mob-names {
-        margin-left: 10px;
-
-    } */
 
     .mob-name {
         width: 100%;
@@ -678,7 +678,6 @@ footer i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin-left: 40px; */
     }
 
     #element2 {
