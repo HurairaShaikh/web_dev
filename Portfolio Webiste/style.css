@@ -542,7 +542,7 @@ footer i {
 
 
 /* Tab Screens */
-/* @media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
     header .nav-bar {
         padding-left: 15rem;
     }
@@ -554,7 +554,7 @@ footer i {
     #Home {
         height: 95vh;
     }
-} */
+}
 
 /* Mobile Screens */
 @media screen and (max-width:766px) and (min-width:300px) {
