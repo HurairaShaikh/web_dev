@@ -542,18 +542,262 @@ footer i {
 
 
 /* Tab Screens */
-@media screen and (min-width:768px) and (max-width:1024px) {
-    header .nav-bar {
-        padding-left: 15rem;
+@media screen and (min-width:768px) and (max-width:1036px) {
+     html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
     }
 
-    header img {
-        height: 120px;
+    header,
+    #Home {
+        background-image: none;
+        background-color: #131362;
+    }
+     header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px 15px;
+        margin-bottom: -1px;
+        height: auto;
+        min-height: 8rem;
+        /* background-color: red; */
+    }
+
+    #web-img {
+        display: none;
+    }
+
+    header #mob-img {
+        display: block;
+        width: 100px;
+        height: auto;
+    }
+
+    header .nav-bar {
+        display: none;
     }
 
     #Home {
-        height: 95vh;
+        height: auto;
+        min-height: 92svh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        background-image: url(./assets/images/mob-me.png);
+        background-repeat: no-repeat;
+        background-position: center calc(100% - 30px);
+        background-size: auto 100%;
+        background-attachment: local;
     }
+
+    .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        min-height: 200px;
+        box-sizing: border-box;
+        /* background-color: rgba(94, 110, 135, 0.85); */
+    }
+
+    .container::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        width: 100%;
+        /* height: 250px; */
+        height: clamp(180px, 32svh, 300px);
+
+        background:  rgba(94, 110, 135, 0.85);
+
+        clip-path: polygon(0 30%,
+                100% 0,
+                100% 100%,
+                0 100%);
+
+        z-index: 0;
+    }
+
+    .container>* {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Heading and socials button for mobile */
+
+    .mob-heading {
+        margin-left: 5px;
+        font-size: 25px;
+        font-family: 'Raleway-Bold';
+        color: #fff;
+        line-height: 1;
+    }
+    .mob-names{
+        margin-bottom: 2rem;
+
+    }
+
+    .mob-name {
+        width: 100%;
+        flex-shrink: 0;
+        font-size: 60px;
+        font-family: 'Raleway-Bold';
+        color: white;
+    }
+
+    .socials i {
+        font-size: 3rem;
+        margin-bottom: 25px;
+        color: white;
+        text-align: center;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    #element2 {
+        width: 100%;
+        font-size: 30px;
+        color: rgb(245, 237, 237);
+    }
+
+    .left-mob {
+        flex-shrink: 0;
+        margin-top: 5rem;
+        margin-left: 60px;
+    }
+
+    .left,
+    .right {
+        display: none;
+    }
+
+    #about {
+        height: auto;
+        min-height: 0;
+        margin: 3rem 1rem;
+        scroll-margin-top: 40px;
+    }
+
+    #about img {
+        width: 100%;
+        /* max-width: 400px; */
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+
+    #Skills {
+        height: auto;
+        min-height: 0;
+        margin: 3rem 1rem;
+        align-items: center;
+    }
+
+    #Skills img {
+        min-height: 70px;
+    }
+
+    .using,
+    .learning {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-content: center;
+    }
+
+    #projects {
+        height: auto;
+        min-height: 0;
+    }
+
+    .boxes {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        justify-content: center;
+    }
+
+    #contact-me {
+        height: auto;
+        min-height: 0;
+        margin: 3rem 1rem;
+        align-items: center;
+    }
+
+    #contact-me form {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #contact-me input,
+    #contact-me textarea {
+        width: 100%;
+    }
+
+    /* DropDown Menu of NavBar */
+    .mobile-menu {
+        display: block;
+        margin-left: auto;
+        position: relative;
+    }
+
+    #menu-btn {
+        background: transparent;
+        border: none;
+        color: #131362;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    #menu-btn i {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        width: 200px;
+        background-color: #131362;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        z-index: 2000;
+    }
+
+    .dropdown.active {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+        font-family: "Montserrat-Bold";
+        font-size: 16px;
+        padding: 12px;
+    }
+
+   
 }
 
 /* Mobile Screens */
